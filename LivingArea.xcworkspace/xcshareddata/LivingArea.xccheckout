@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4943781F-7A56-4206-AA02-1BD55FAAF706</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LivingArea</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CB30FA79DA175B113F664354FD347D4F35475453</key>
+		<string>https://github.com/Gooxx/MOMLivingArea.git</string>
+		<key>edda36ef-85a5-004d-9115-9a14e77ad9fc++5282</key>
+		<string>https://168.168.1.183/svn/iOS/VideoInteractive/External/MBProgressHUD</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LivingArea.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CB30FA79DA175B113F664354FD347D4F35475453</key>
+		<string>..</string>
+		<key>edda36ef-85a5-004d-9115-9a14e77ad9fc++5282</key>
+		<string>../LivingArea/Classes/Tool/MBProgressHUD/</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>edda36ef-85a5-004d-9115-9a14e77ad9fc++5282</key>
+		<string>https://168.168.1.183/svn/iOS</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Gooxx/MOMLivingArea.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CB30FA79DA175B113F664354FD347D4F35475453</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CB30FA79DA175B113F664354FD347D4F35475453</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LivingArea</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>edda36ef-85a5-004d-9115-9a14e77ad9fc++5282</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MBProgressHUD</string>
+		</dict>
+	</array>
+</dict>
+</plist>
