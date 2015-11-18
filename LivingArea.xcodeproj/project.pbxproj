@@ -193,9 +193,6 @@
 		1852B9321BDE12710081AD7E /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1852B8871BDE12710081AD7E /* License.txt */; };
 		1852B9331BDE12710081AD7E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1852B8881BDE12710081AD7E /* README.md */; };
 		1852B9FF1BDF65A400134166 /* MOMMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 1852B9FE1BDF65A400134166 /* MOMMap.m */; };
-		1852BA201BE0A21600134166 /* CCPSDKBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1852BA081BE0A21600134166 /* CCPSDKBundle.bundle */; };
-		1852BA211BE0A21600134166 /* ECKitBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1852BA0F1BE0A21600134166 /* ECKitBundle.bundle */; };
-		1852BA221BE0A21600134166 /* libccp_ios_kit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1852BA161BE0A21600134166 /* libccp_ios_kit.a */; };
 		1852BA261BE0A36F00134166 /* DemoGlobalClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1852BA251BE0A36F00134166 /* DemoGlobalClass.m */; };
 		1852BA291BE0A88C00134166 /* MOMUsersController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1852BA281BE0A88C00134166 /* MOMUsersController.m */; };
 		1852BA2B1BE0AC3100134166 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1852BA2A1BE0AC3100134166 /* libsqlite3.tbd */; };
@@ -252,6 +249,27 @@
 		1856E2CE1BF9C57400EE6ECF /* MOMBBSInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1856E2CD1BF9C57400EE6ECF /* MOMBBSInfo.m */; settings = {ASSET_TAGS = (); }; };
 		1856E2D01BF9C77C00EE6ECF /* bbsCommList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1856E2CF1BF9C77C00EE6ECF /* bbsCommList.plist */; settings = {ASSET_TAGS = (); }; };
 		1856E2D21BF9C7B100EE6ECF /* bbsCommChildList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1856E2D11BF9C7B100EE6ECF /* bbsCommChildList.plist */; settings = {ASSET_TAGS = (); }; };
+		1856E36B1BFB06E700EE6ECF /* CCPSDKBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1856E3531BFB06E700EE6ECF /* CCPSDKBundle.bundle */; settings = {ASSET_TAGS = (); }; };
+		1856E36C1BFB06E700EE6ECF /* ECKitBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1856E35A1BFB06E700EE6ECF /* ECKitBundle.bundle */; settings = {ASSET_TAGS = (); }; };
+		1856E36D1BFB06E700EE6ECF /* libccp_ios_kit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1856E3611BFB06E700EE6ECF /* libccp_ios_kit.a */; settings = {ASSET_TAGS = (); }; };
+		1856E3751BFB09A200EE6ECF /* CacheUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1856E3711BFB09A200EE6ECF /* CacheUtil.m */; settings = {ASSET_TAGS = (); }; };
+		1856E3761BFB09A200EE6ECF /* PListUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1856E3741BFB09A200EE6ECF /* PListUtil.m */; settings = {ASSET_TAGS = (); }; };
+		1856E3861BFC21B200EE6ECF /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1856E37E1BFC21B200EE6ECF /* LICENSE.txt */; settings = {ASSET_TAGS = (); }; };
+		1856E3871BFC21B200EE6ECF /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1856E37F1BFC21B200EE6ECF /* README.md */; settings = {ASSET_TAGS = (); }; };
+		1856E3881BFC21B200EE6ECF /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1856E3821BFC21B200EE6ECF /* SVIndefiniteAnimatedView.m */; settings = {ASSET_TAGS = (); }; };
+		1856E3891BFC21B200EE6ECF /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1856E3831BFC21B200EE6ECF /* SVProgressHUD.bundle */; settings = {ASSET_TAGS = (); }; };
+		1856E38A1BFC21B200EE6ECF /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1856E3851BFC21B200EE6ECF /* SVProgressHUD.m */; settings = {ASSET_TAGS = (); }; };
+		1856E38D1BFC220100EE6ECF /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1856E38C1BFC220100EE6ECF /* Reachability.m */; settings = {ASSET_TAGS = (); }; };
+		1856E38F1BFC551900EE6ECF /* nearUserList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1856E38E1BFC551900EE6ECF /* nearUserList.plist */; settings = {ASSET_TAGS = (); }; };
+		1856E3911BFC554E00EE6ECF /* nearUserInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1856E3901BFC554E00EE6ECF /* nearUserInfo.plist */; settings = {ASSET_TAGS = (); }; };
+		1856E3931BFC562B00EE6ECF /* noticeList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1856E3921BFC562B00EE6ECF /* noticeList.plist */; settings = {ASSET_TAGS = (); }; };
+		1856E3951BFC566200EE6ECF /* serviceList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1856E3941BFC566200EE6ECF /* serviceList.plist */; settings = {ASSET_TAGS = (); }; };
+		1856E3971BFC568E00EE6ECF /* myBbsList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1856E3961BFC568E00EE6ECF /* myBbsList.plist */; settings = {ASSET_TAGS = (); }; };
+		1856E3991BFC56B100EE6ECF /* myStoreList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1856E3981BFC56B100EE6ECF /* myStoreList.plist */; settings = {ASSET_TAGS = (); }; };
+		1856E39B1BFC56D100EE6ECF /* myFriendList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1856E39A1BFC56D100EE6ECF /* myFriendList.plist */; settings = {ASSET_TAGS = (); }; };
+		1856E39D1BFC56F100EE6ECF /* myCardList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1856E39C1BFC56F100EE6ECF /* myCardList.plist */; settings = {ASSET_TAGS = (); }; };
+		1856E3A11BFC575100EE6ECF /* MOMIMStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 1856E3A01BFC575100EE6ECF /* MOMIMStore.m */; settings = {ASSET_TAGS = (); }; };
+		1856E3A41BFC619B00EE6ECF /* MOMNeighbor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1856E3A31BFC619B00EE6ECF /* MOMNeighbor.m */; settings = {ASSET_TAGS = (); }; };
 		18574C6E1BA8FE6B00F8E7FA /* First.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18574C6C1BA8FE6B00F8E7FA /* First.storyboard */; };
 		18574C731BA8FE6B00F8E7FA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18574C711BA8FE6B00F8E7FA /* LaunchScreen.xib */; };
 		18574C7F1BA8FE6B00F8E7FA /* LivingAreaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18574C7E1BA8FE6B00F8E7FA /* LivingAreaTests.m */; };
@@ -681,25 +699,6 @@
 		1852B8881BDE12710081AD7E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1852B9FD1BDF65A400134166 /* MOMMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOMMap.h; path = Map/MOMMap.h; sourceTree = "<group>"; };
 		1852B9FE1BDF65A400134166 /* MOMMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOMMap.m; path = Map/MOMMap.m; sourceTree = "<group>"; };
-		1852BA081BE0A21600134166 /* CCPSDKBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CCPSDKBundle.bundle; sourceTree = "<group>"; };
-		1852BA0A1BE0A21600134166 /* ECConversationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECConversationDelegate.h; sourceTree = "<group>"; };
-		1852BA0B1BE0A21600134166 /* ECConversationListDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECConversationListDelegate.h; sourceTree = "<group>"; };
-		1852BA0C1BE0A21600134166 /* ECDeviceKitDelegateBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECDeviceKitDelegateBase.h; sourceTree = "<group>"; };
-		1852BA0D1BE0A21600134166 /* ECKitDeviceDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECKitDeviceDelegate.h; sourceTree = "<group>"; };
-		1852BA0E1BE0A21600134166 /* ECNetworkDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECNetworkDelegate.h; sourceTree = "<group>"; };
-		1852BA0F1BE0A21600134166 /* ECKitBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ECKitBundle.bundle; sourceTree = "<group>"; };
-		1852BA111BE0A21600134166 /* ECEnumDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECEnumDefs.h; sourceTree = "<group>"; };
-		1852BA131BE0A21600134166 /* ECDeviceKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECDeviceKit.h; sourceTree = "<group>"; };
-		1852BA141BE0A21600134166 /* ECDeviceKitHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECDeviceKitHeaders.h; sourceTree = "<group>"; };
-		1852BA151BE0A21600134166 /* ECIMKitManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECIMKitManager.h; sourceTree = "<group>"; };
-		1852BA161BE0A21600134166 /* libccp_ios_kit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libccp_ios_kit.a; sourceTree = "<group>"; };
-		1852BA191BE0A21600134166 /* ECError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECError.h; sourceTree = "<group>"; };
-		1852BA1A1BE0A21600134166 /* ECGroupMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECGroupMember.h; sourceTree = "<group>"; };
-		1852BA1B1BE0A21600134166 /* ECLoginInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECLoginInfo.h; sourceTree = "<group>"; };
-		1852BA1C1BE0A21600134166 /* ECMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECMessage.h; sourceTree = "<group>"; };
-		1852BA1D1BE0A21600134166 /* ECMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECMessageBody.h; sourceTree = "<group>"; };
-		1852BA1E1BE0A21600134166 /* ECPersonInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPersonInfo.h; sourceTree = "<group>"; };
-		1852BA1F1BE0A21600134166 /* ECSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSession.h; sourceTree = "<group>"; };
 		1852BA241BE0A36F00134166 /* DemoGlobalClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DemoGlobalClass.h; path = IM/DemoGlobalClass.h; sourceTree = "<group>"; };
 		1852BA251BE0A36F00134166 /* DemoGlobalClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DemoGlobalClass.m; path = IM/DemoGlobalClass.m; sourceTree = "<group>"; };
 		1852BA271BE0A88C00134166 /* MOMUsersController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOMUsersController.h; sourceTree = "<group>"; };
@@ -763,6 +762,50 @@
 		1856E2CD1BF9C57400EE6ECF /* MOMBBSInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOMBBSInfo.m; path = BBS/MOMBBSInfo.m; sourceTree = "<group>"; };
 		1856E2CF1BF9C77C00EE6ECF /* bbsCommList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = bbsCommList.plist; sourceTree = "<group>"; };
 		1856E2D11BF9C7B100EE6ECF /* bbsCommChildList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = bbsCommChildList.plist; sourceTree = "<group>"; };
+		1856E3531BFB06E700EE6ECF /* CCPSDKBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CCPSDKBundle.bundle; sourceTree = "<group>"; };
+		1856E3551BFB06E700EE6ECF /* ECConversationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECConversationDelegate.h; sourceTree = "<group>"; };
+		1856E3561BFB06E700EE6ECF /* ECConversationListDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECConversationListDelegate.h; sourceTree = "<group>"; };
+		1856E3571BFB06E700EE6ECF /* ECDeviceKitDelegateBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECDeviceKitDelegateBase.h; sourceTree = "<group>"; };
+		1856E3581BFB06E700EE6ECF /* ECKitDeviceDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECKitDeviceDelegate.h; sourceTree = "<group>"; };
+		1856E3591BFB06E700EE6ECF /* ECNetworkDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECNetworkDelegate.h; sourceTree = "<group>"; };
+		1856E35A1BFB06E700EE6ECF /* ECKitBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ECKitBundle.bundle; sourceTree = "<group>"; };
+		1856E35C1BFB06E700EE6ECF /* ECEnumDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECEnumDefs.h; sourceTree = "<group>"; };
+		1856E35E1BFB06E700EE6ECF /* ECDeviceKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECDeviceKit.h; sourceTree = "<group>"; };
+		1856E35F1BFB06E700EE6ECF /* ECDeviceKitHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECDeviceKitHeaders.h; sourceTree = "<group>"; };
+		1856E3601BFB06E700EE6ECF /* ECIMKitManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECIMKitManager.h; sourceTree = "<group>"; };
+		1856E3611BFB06E700EE6ECF /* libccp_ios_kit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libccp_ios_kit.a; sourceTree = "<group>"; };
+		1856E3641BFB06E700EE6ECF /* ECError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECError.h; sourceTree = "<group>"; };
+		1856E3651BFB06E700EE6ECF /* ECGroupMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECGroupMember.h; sourceTree = "<group>"; };
+		1856E3661BFB06E700EE6ECF /* ECLoginInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECLoginInfo.h; sourceTree = "<group>"; };
+		1856E3671BFB06E700EE6ECF /* ECMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECMessage.h; sourceTree = "<group>"; };
+		1856E3681BFB06E700EE6ECF /* ECMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECMessageBody.h; sourceTree = "<group>"; };
+		1856E3691BFB06E700EE6ECF /* ECPersonInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPersonInfo.h; sourceTree = "<group>"; };
+		1856E36A1BFB06E700EE6ECF /* ECSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSession.h; sourceTree = "<group>"; };
+		1856E3701BFB09A200EE6ECF /* CacheUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheUtil.h; sourceTree = "<group>"; };
+		1856E3711BFB09A200EE6ECF /* CacheUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheUtil.m; sourceTree = "<group>"; };
+		1856E3731BFB09A200EE6ECF /* PListUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PListUtil.h; sourceTree = "<group>"; };
+		1856E3741BFB09A200EE6ECF /* PListUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PListUtil.m; sourceTree = "<group>"; };
+		1856E37E1BFC21B200EE6ECF /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		1856E37F1BFC21B200EE6ECF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1856E3811BFC21B200EE6ECF /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		1856E3821BFC21B200EE6ECF /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		1856E3831BFC21B200EE6ECF /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		1856E3841BFC21B200EE6ECF /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		1856E3851BFC21B200EE6ECF /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		1856E38B1BFC220100EE6ECF /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		1856E38C1BFC220100EE6ECF /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		1856E38E1BFC551900EE6ECF /* nearUserList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = nearUserList.plist; sourceTree = "<group>"; };
+		1856E3901BFC554E00EE6ECF /* nearUserInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = nearUserInfo.plist; sourceTree = "<group>"; };
+		1856E3921BFC562B00EE6ECF /* noticeList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = noticeList.plist; sourceTree = "<group>"; };
+		1856E3941BFC566200EE6ECF /* serviceList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = serviceList.plist; sourceTree = "<group>"; };
+		1856E3961BFC568E00EE6ECF /* myBbsList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = myBbsList.plist; sourceTree = "<group>"; };
+		1856E3981BFC56B100EE6ECF /* myStoreList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = myStoreList.plist; sourceTree = "<group>"; };
+		1856E39A1BFC56D100EE6ECF /* myFriendList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = myFriendList.plist; sourceTree = "<group>"; };
+		1856E39C1BFC56F100EE6ECF /* myCardList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = myCardList.plist; sourceTree = "<group>"; };
+		1856E39F1BFC575100EE6ECF /* MOMIMStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOMIMStore.h; path = IM/MOMIMStore.h; sourceTree = "<group>"; };
+		1856E3A01BFC575100EE6ECF /* MOMIMStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOMIMStore.m; path = IM/MOMIMStore.m; sourceTree = "<group>"; };
+		1856E3A21BFC619B00EE6ECF /* MOMNeighbor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOMNeighbor.h; path = IM/MOMNeighbor.h; sourceTree = "<group>"; };
+		1856E3A31BFC619B00EE6ECF /* MOMNeighbor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOMNeighbor.m; path = IM/MOMNeighbor.m; sourceTree = "<group>"; };
 		18574C5F1BA8FE6B00F8E7FA /* LivingArea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LivingArea.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18574C6D1BA8FE6B00F8E7FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/First.storyboard; sourceTree = "<group>"; };
 		18574C721BA8FE6B00F8E7FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -875,6 +918,7 @@
 				1852BA3D1BE0ACE000134166 /* MobileCoreServices.framework in Frameworks */,
 				1852BA3B1BE0ACD700134166 /* MediaPlayer.framework in Frameworks */,
 				1852BA391BE0ACBF00134166 /* AVFoundation.framework in Frameworks */,
+				1856E36D1BFB06E700EE6ECF /* libccp_ios_kit.a in Frameworks */,
 				1852BA371BE0ACB700134166 /* AudioToolbox.framework in Frameworks */,
 				1852BA351BE0ACAC00134166 /* CFNetwork.framework in Frameworks */,
 				1852BA331BE0ACA600134166 /* CoreGraphics.framework in Frameworks */,
@@ -883,7 +927,6 @@
 				1852BA2D1BE0AC5100134166 /* libicucore.tbd in Frameworks */,
 				1852BA2B1BE0AC3100134166 /* libsqlite3.tbd in Frameworks */,
 				740C3C010BEC8AB53F75CB73 /* libPods.a in Frameworks */,
-				1852BA221BE0A21600134166 /* libccp_ios_kit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1349,77 +1392,13 @@
 			name = Map;
 			sourceTree = "<group>";
 		};
-		1852BA071BE0A21600134166 /* Yuntx_IMUIKit_SDK */ = {
-			isa = PBXGroup;
-			children = (
-				1852BA081BE0A21600134166 /* CCPSDKBundle.bundle */,
-				1852BA091BE0A21600134166 /* Delegate */,
-				1852BA0F1BE0A21600134166 /* ECKitBundle.bundle */,
-				1852BA101BE0A21600134166 /* enums */,
-				1852BA121BE0A21600134166 /* lib */,
-				1852BA171BE0A21600134166 /* Manager */,
-				1852BA181BE0A21600134166 /* types */,
-			);
-			path = Yuntx_IMUIKit_SDK;
-			sourceTree = "<group>";
-		};
-		1852BA091BE0A21600134166 /* Delegate */ = {
-			isa = PBXGroup;
-			children = (
-				1852BA0A1BE0A21600134166 /* ECConversationDelegate.h */,
-				1852BA0B1BE0A21600134166 /* ECConversationListDelegate.h */,
-				1852BA0C1BE0A21600134166 /* ECDeviceKitDelegateBase.h */,
-				1852BA0D1BE0A21600134166 /* ECKitDeviceDelegate.h */,
-				1852BA0E1BE0A21600134166 /* ECNetworkDelegate.h */,
-			);
-			path = Delegate;
-			sourceTree = "<group>";
-		};
-		1852BA101BE0A21600134166 /* enums */ = {
-			isa = PBXGroup;
-			children = (
-				1852BA111BE0A21600134166 /* ECEnumDefs.h */,
-			);
-			path = enums;
-			sourceTree = "<group>";
-		};
-		1852BA121BE0A21600134166 /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				1852BA131BE0A21600134166 /* ECDeviceKit.h */,
-				1852BA141BE0A21600134166 /* ECDeviceKitHeaders.h */,
-				1852BA151BE0A21600134166 /* ECIMKitManager.h */,
-				1852BA161BE0A21600134166 /* libccp_ios_kit.a */,
-			);
-			path = lib;
-			sourceTree = "<group>";
-		};
-		1852BA171BE0A21600134166 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Manager;
-			sourceTree = "<group>";
-		};
-		1852BA181BE0A21600134166 /* types */ = {
-			isa = PBXGroup;
-			children = (
-				1852BA191BE0A21600134166 /* ECError.h */,
-				1852BA1A1BE0A21600134166 /* ECGroupMember.h */,
-				1852BA1B1BE0A21600134166 /* ECLoginInfo.h */,
-				1852BA1C1BE0A21600134166 /* ECMessage.h */,
-				1852BA1D1BE0A21600134166 /* ECMessageBody.h */,
-				1852BA1E1BE0A21600134166 /* ECPersonInfo.h */,
-				1852BA1F1BE0A21600134166 /* ECSession.h */,
-			);
-			path = types;
-			sourceTree = "<group>";
-		};
 		1852BA231BE0A30E00134166 /* IM */ = {
 			isa = PBXGroup;
 			children = (
 				1852BA241BE0A36F00134166 /* DemoGlobalClass.h */,
 				1852BA251BE0A36F00134166 /* DemoGlobalClass.m */,
+				1856E3A21BFC619B00EE6ECF /* MOMNeighbor.h */,
+				1856E3A31BFC619B00EE6ECF /* MOMNeighbor.m */,
 			);
 			name = IM;
 			sourceTree = "<group>";
@@ -1530,9 +1509,141 @@
 				1856E2CA1BF9C51300EE6ECF /* bbsList.plist */,
 				1856E2CF1BF9C77C00EE6ECF /* bbsCommList.plist */,
 				1856E2D11BF9C7B100EE6ECF /* bbsCommChildList.plist */,
+				1856E38E1BFC551900EE6ECF /* nearUserList.plist */,
+				1856E3901BFC554E00EE6ECF /* nearUserInfo.plist */,
+				1856E3921BFC562B00EE6ECF /* noticeList.plist */,
+				1856E3941BFC566200EE6ECF /* serviceList.plist */,
+				1856E3961BFC568E00EE6ECF /* myBbsList.plist */,
+				1856E3981BFC56B100EE6ECF /* myStoreList.plist */,
+				1856E39A1BFC56D100EE6ECF /* myFriendList.plist */,
+				1856E39C1BFC56F100EE6ECF /* myCardList.plist */,
 			);
 			name = simulateData;
 			path = Resource/simulateData;
+			sourceTree = "<group>";
+		};
+		1856E3521BFB06E700EE6ECF /* Yuntx_IMUIKit_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				1856E3531BFB06E700EE6ECF /* CCPSDKBundle.bundle */,
+				1856E3541BFB06E700EE6ECF /* Delegate */,
+				1856E35A1BFB06E700EE6ECF /* ECKitBundle.bundle */,
+				1856E35B1BFB06E700EE6ECF /* enums */,
+				1856E35D1BFB06E700EE6ECF /* lib */,
+				1856E3621BFB06E700EE6ECF /* Manager */,
+				1856E3631BFB06E700EE6ECF /* types */,
+			);
+			path = Yuntx_IMUIKit_SDK;
+			sourceTree = "<group>";
+		};
+		1856E3541BFB06E700EE6ECF /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				1856E3551BFB06E700EE6ECF /* ECConversationDelegate.h */,
+				1856E3561BFB06E700EE6ECF /* ECConversationListDelegate.h */,
+				1856E3571BFB06E700EE6ECF /* ECDeviceKitDelegateBase.h */,
+				1856E3581BFB06E700EE6ECF /* ECKitDeviceDelegate.h */,
+				1856E3591BFB06E700EE6ECF /* ECNetworkDelegate.h */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		1856E35B1BFB06E700EE6ECF /* enums */ = {
+			isa = PBXGroup;
+			children = (
+				1856E35C1BFB06E700EE6ECF /* ECEnumDefs.h */,
+			);
+			path = enums;
+			sourceTree = "<group>";
+		};
+		1856E35D1BFB06E700EE6ECF /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				1856E35E1BFB06E700EE6ECF /* ECDeviceKit.h */,
+				1856E35F1BFB06E700EE6ECF /* ECDeviceKitHeaders.h */,
+				1856E3601BFB06E700EE6ECF /* ECIMKitManager.h */,
+				1856E3611BFB06E700EE6ECF /* libccp_ios_kit.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		1856E3621BFB06E700EE6ECF /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		1856E3631BFB06E700EE6ECF /* types */ = {
+			isa = PBXGroup;
+			children = (
+				1856E3641BFB06E700EE6ECF /* ECError.h */,
+				1856E3651BFB06E700EE6ECF /* ECGroupMember.h */,
+				1856E3661BFB06E700EE6ECF /* ECLoginInfo.h */,
+				1856E3671BFB06E700EE6ECF /* ECMessage.h */,
+				1856E3681BFB06E700EE6ECF /* ECMessageBody.h */,
+				1856E3691BFB06E700EE6ECF /* ECPersonInfo.h */,
+				1856E36A1BFB06E700EE6ECF /* ECSession.h */,
+			);
+			path = types;
+			sourceTree = "<group>";
+		};
+		1856E36F1BFB09A200EE6ECF /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				1856E3701BFB09A200EE6ECF /* CacheUtil.h */,
+				1856E3711BFB09A200EE6ECF /* CacheUtil.m */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		1856E3721BFB09A200EE6ECF /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				1856E3731BFB09A200EE6ECF /* PListUtil.h */,
+				1856E3741BFB09A200EE6ECF /* PListUtil.m */,
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		1856E3791BFC1C2C00EE6ECF /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				1856E38B1BFC220100EE6ECF /* Reachability.h */,
+				1856E38C1BFC220100EE6ECF /* Reachability.m */,
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+		1856E37D1BFC21B200EE6ECF /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				1856E37E1BFC21B200EE6ECF /* LICENSE.txt */,
+				1856E37F1BFC21B200EE6ECF /* README.md */,
+				1856E3801BFC21B200EE6ECF /* SVProgressHUD */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		1856E3801BFC21B200EE6ECF /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				1856E3811BFC21B200EE6ECF /* SVIndefiniteAnimatedView.h */,
+				1856E3821BFC21B200EE6ECF /* SVIndefiniteAnimatedView.m */,
+				1856E3831BFC21B200EE6ECF /* SVProgressHUD.bundle */,
+				1856E3841BFC21B200EE6ECF /* SVProgressHUD.h */,
+				1856E3851BFC21B200EE6ECF /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		1856E39E1BFC572500EE6ECF /* IM */ = {
+			isa = PBXGroup;
+			children = (
+				1856E39F1BFC575100EE6ECF /* MOMIMStore.h */,
+				1856E3A01BFC575100EE6ECF /* MOMIMStore.m */,
+			);
+			name = IM;
 			sourceTree = "<group>";
 		};
 		18574C561BA8FE6B00F8E7FA = {
@@ -1654,6 +1765,7 @@
 		185E50AF1BDA027B00AC392E /* Store */ = {
 			isa = PBXGroup;
 			children = (
+				1856E39E1BFC572500EE6ECF /* IM */,
 				185E50B01BDA027B00AC392E /* BBS */,
 				185E50B31BDA027B00AC392E /* User */,
 			);
@@ -1681,12 +1793,16 @@
 		185E50B61BDA027B00AC392E /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				1856E37D1BFC21B200EE6ECF /* SVProgressHUD */,
+				1856E3791BFC1C2C00EE6ECF /* Net */,
+				1856E36F1BFB09A200EE6ECF /* Image */,
+				1856E3721BFB09A200EE6ECF /* Plist */,
+				1856E3521BFB06E700EE6ECF /* Yuntx_IMUIKit_SDK */,
 				1856E2B11BF97BF200EE6ECF /* HUD */,
 				1856E2B01BF9699000EE6ECF /* Security */,
 				18769EA81BF1DCEE0056BCAE /* Comment */,
 				18769E951BF1D39D0056BCAE /* TLCityPicker */,
 				18E257741BEAE9BD00AE49E1 /* QRCode */,
-				1852BA071BE0A21600134166 /* Yuntx_IMUIKit_SDK */,
 				1852B9FC1BDF657E00134166 /* Map */,
 				1852B7321BDE12710081AD7E /* GPUImage */,
 				185E50B71BDA027B00AC392E /* model */,
@@ -2065,12 +2181,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				1856E2D21BF9C7B100EE6ECF /* bbsCommChildList.plist in Resources */,
+				1856E36C1BFB06E700EE6ECF /* ECKitBundle.bundle in Resources */,
 				1852BA661BE0AE8000134166 /* AppConfig.plist in Resources */,
 				1852BA6C1BE0AE8000134166 /* logo57x57.png in Resources */,
+				1856E36B1BFB06E700EE6ECF /* CCPSDKBundle.bundle in Resources */,
 				185BDF0D1BD6306000D3EE23 /* Info.storyboard in Resources */,
 				18574C6E1BA8FE6B00F8E7FA /* First.storyboard in Resources */,
 				1852BA811BE0AE8000134166 /* navigation_bar@2x.png in Resources */,
+				1856E3931BFC562B00EE6ECF /* noticeList.plist in Resources */,
 				1852B8891BDE12710081AD7E /* lookup.png in Resources */,
+				1856E3891BFC21B200EE6ECF /* SVProgressHUD.bundle in Resources */,
+				1856E39D1BFC56F100EE6ECF /* myCardList.plist in Resources */,
 				1856E2D01BF9C77C00EE6ECF /* bbsCommList.plist in Resources */,
 				185BDF0A1BD62EBC00D3EE23 /* IM.storyboard in Resources */,
 				1852BA701BE0AE8000134166 /* log_accounts_icon@2x.png in Resources */,
@@ -2081,13 +2202,14 @@
 				1852BA7D1BE0AE8000134166 /* select_account_list_unchecked@2x.png in Resources */,
 				1852BA781BE0AE8000134166 /* select_account_bottom@2x.png in Resources */,
 				1852BA831BE0AE8000134166 /* title_bar_add@2x.png in Resources */,
+				1856E3951BFC566200EE6ECF /* serviceList.plist in Resources */,
 				1852BA861BE0AE8000134166 /* title_bar_more@2x.png in Resources */,
 				1852BA751BE0AE8000134166 /* log_password_icon_selected@2x.png in Resources */,
 				18769EA21BF1D39D0056BCAE /* CityData.plist in Resources */,
+				1856E38F1BFC551900EE6ECF /* nearUserList.plist in Resources */,
 				1852BA731BE0AE8000134166 /* log_accounts_line_selected@2x.png in Resources */,
 				1852BA7F1BE0AE8000134166 /* select_account_prompt_font@2x.png in Resources */,
 				1852B88D1BDE12710081AD7E /* lookup_soft_elegance_2.png in Resources */,
-				1852BA211BE0A21600134166 /* ECKitBundle.bundle in Resources */,
 				18574C731BA8FE6B00F8E7FA /* LaunchScreen.xib in Resources */,
 				1852BA7A1BE0AE8000134166 /* select_account_label@2x.png in Resources */,
 				1852BA681BE0AE8000134166 /* logo120x120.png in Resources */,
@@ -2100,20 +2222,24 @@
 				1852BA691BE0AE8000134166 /* logo180x180.png in Resources */,
 				182EFD701BAFF42800118CFF /* Info.plist in Resources */,
 				1852B88A1BDE12710081AD7E /* lookup_amatorka.png in Resources */,
+				1856E3991BFC56B100EE6ECF /* myStoreList.plist in Resources */,
 				1852BA7E1BE0AE8000134166 /* select_account_prompt@2x.png in Resources */,
 				1856E2CB1BF9C51300EE6ECF /* bbsList.plist in Resources */,
 				185BDF031BD61E6E00D3EE23 /* User.storyboard in Resources */,
 				1852B9321BDE12710081AD7E /* License.txt in Resources */,
 				1852BA771BE0AE8000134166 /* male_default_head_img@2x.png in Resources */,
+				1856E3911BFC554E00EE6ECF /* nearUserInfo.plist in Resources */,
 				1852BA7C1BE0AE8000134166 /* select_account_list_checked@2x.png in Resources */,
-				1852BA201BE0A21600134166 /* CCPSDKBundle.bundle in Resources */,
 				1856E2C51BF9BDF900EE6ECF /* bbsTitle.plist in Resources */,
 				1852BA6B1BE0AE8000134166 /* logo40x40.png in Resources */,
 				1852BA791BE0AE8000134166 /* select_account_button@2x.png in Resources */,
 				1852BA801BE0AE8000134166 /* select_account_tab@2x.png in Resources */,
 				1852BA671BE0AE8000134166 /* logo114x114.png in Resources */,
+				1856E3861BFC21B200EE6ECF /* LICENSE.txt in Resources */,
 				1852BA841BE0AE8000134166 /* title_bar_back@2x.png in Resources */,
 				1852BA6F1BE0AE8000134166 /* chatui_head_bg@2x.png in Resources */,
+				1856E3971BFC568E00EE6ECF /* myBbsList.plist in Resources */,
+				1856E39B1BFC56D100EE6ECF /* myFriendList.plist in Resources */,
 				1852BA761BE0AE8000134166 /* log_tab@2x.png in Resources */,
 				1852B88B1BDE12710081AD7E /* lookup_miss_etikate.png in Resources */,
 				1852BA721BE0AE8000134166 /* log_accounts_line@2x.png in Resources */,
@@ -2216,6 +2342,7 @@
 				1852B8D51BDE12710081AD7E /* GPUImageLaplacianFilter.m in Sources */,
 				1852B9161BDE12710081AD7E /* GPUImageTextureInput.m in Sources */,
 				1852B8A01BDE12710081AD7E /* GPUImageClosingFilter.m in Sources */,
+				1856E3A11BFC575100EE6ECF /* MOMIMStore.m in Sources */,
 				1852B8BD1BDE12710081AD7E /* GPUImageGammaFilter.m in Sources */,
 				1852B8F21BDE12710081AD7E /* GPUImageParallelCoordinateLineTransformFilter.m in Sources */,
 				18E257771BEAE9BD00AE49E1 /* MKWQRCodeViewController.m in Sources */,
@@ -2318,6 +2445,7 @@
 				1852B9261BDE12710081AD7E /* GPUImageVideoCamera.m in Sources */,
 				1852B9191BDE12710081AD7E /* GPUImageThresholdEdgeDetectionFilter.m in Sources */,
 				1852B91D1BDE12710081AD7E /* GPUImageToneCurveFilter.m in Sources */,
+				1856E3761BFB09A200EE6ECF /* PListUtil.m in Sources */,
 				1852B8B91BDE12710081AD7E /* GPUImageFilterGroup.m in Sources */,
 				1852B8D91BDE12710081AD7E /* GPUImageLineGenerator.m in Sources */,
 				185E50EF1BDA027B00AC392E /* MOMObject.m in Sources */,
@@ -2329,6 +2457,7 @@
 				1852B8901BDE12710081AD7E /* GPUImage3x3TextureSamplingFilter.m in Sources */,
 				1852B8BE1BDE12710081AD7E /* GPUImageGaussianBlurFilter.m in Sources */,
 				1852B9301BDE12710081AD7E /* GPUImagePicture.m in Sources */,
+				1856E38D1BFC220100EE6ECF /* Reachability.m in Sources */,
 				1852B9331BDE12710081AD7E /* README.md in Sources */,
 				1852B8A61BDE12710081AD7E /* GPUImageColorPackingFilter.m in Sources */,
 				1852B89A1BDE12710081AD7E /* GPUImageBuffer.m in Sources */,
@@ -2340,6 +2469,7 @@
 				1852B8991BDE12710081AD7E /* GPUImageBrightnessFilter.m in Sources */,
 				185E50F61BDA027B00AC392E /* MOMNetWorking.m in Sources */,
 				1852B8DC1BDE12710081AD7E /* GPUImageLowPassFilter.m in Sources */,
+				1856E3A41BFC619B00EE6ECF /* MOMNeighbor.m in Sources */,
 				1852B9071BDE12710081AD7E /* GPUImageSharpenFilter.m in Sources */,
 				1852B8F61BDE12710081AD7E /* GPUImagePixellatePositionFilter.m in Sources */,
 				1852B8D11BDE12710081AD7E /* GPUImageJFAVoronoiFilter.m in Sources */,
@@ -2368,6 +2498,7 @@
 				1852B9221BDE12710081AD7E /* GPUImageTwoPassFilter.m in Sources */,
 				1852B8F71BDE12710081AD7E /* GPUImagePoissonBlendFilter.m in Sources */,
 				1852B9211BDE12710081AD7E /* GPUImageTwoInputFilter.m in Sources */,
+				1856E3881BFC21B200EE6ECF /* SVIndefiniteAnimatedView.m in Sources */,
 				1852B8C11BDE12710081AD7E /* GPUImageGlassSphereFilter.m in Sources */,
 				1852BA291BE0A88C00134166 /* MOMUsersController.m in Sources */,
 				1852B8911BDE12710081AD7E /* GPUImageAdaptiveThresholdFilter.m in Sources */,
@@ -2385,14 +2516,17 @@
 				1852B8EA1BDE12710081AD7E /* GPUImageMultiplyBlendFilter.m in Sources */,
 				1852B8EF1BDE12710081AD7E /* GPUImageOpeningFilter.m in Sources */,
 				1852B8AF1BDE12710081AD7E /* GPUImageDirectionalSobelEdgeDetectionFilter.m in Sources */,
+				1856E3751BFB09A200EE6ECF /* CacheUtil.m in Sources */,
 				1852B8C71BDE12710081AD7E /* GPUImageHighlightShadowFilter.m in Sources */,
 				1852B9201BDE12710081AD7E /* GPUImageTwoInputCrossTextureSamplingFilter.m in Sources */,
+				1856E38A1BFC21B200EE6ECF /* SVProgressHUD.m in Sources */,
 				1852B8C31BDE12710081AD7E /* GPUImageHalftoneFilter.m in Sources */,
 				18769EA71BF1D39D0056BCAE /* TLCityPickerSearchResultController.m in Sources */,
 				1856E2CE1BF9C57400EE6ECF /* MOMBBSInfo.m in Sources */,
 				18769E941BF1C6480056BCAE /* MOMBBSCommentTableController.m in Sources */,
 				1852B8AA1BDE12710081AD7E /* GPUImageCrosshatchFilter.m in Sources */,
 				1852B8FE1BDE12710081AD7E /* GPUImageRGBClosingFilter.m in Sources */,
+				1856E3871BFC21B200EE6ECF /* README.md in Sources */,
 				1852B8A11BDE12710081AD7E /* GPUImageColorBlendFilter.m in Sources */,
 				1852B8BA1BDE12710081AD7E /* GPUImageFilterPipeline.m in Sources */,
 				1852B8CF1BDE12710081AD7E /* GPUImageHueFilter.m in Sources */,
@@ -2532,7 +2666,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -2571,7 +2705,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";

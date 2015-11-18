@@ -14,6 +14,7 @@
 #import "MOMUser.h"
 #import "MOMTest.h"
 #import "MOMUserStore.h"
+#import "MOMIMStore.h"
 #import "MOMApplication.h"
 @interface LivingAreaTests : XCTestCase
 
@@ -63,7 +64,7 @@
 //    
 //}
 
-
+/*
 -(void)testValid{
     NSString *stt = @"rrr";
 //    id bb=  [NSString stringWithUTF8String:ivar_getName((__bridge Ivar)(stt))];
@@ -82,7 +83,13 @@
     BOOL b3 = [MOMApplication isOpened];
     [MOMApplication setOpened:YES];
 }
+*/
 
+-(void)testIMNeightors{
+    [MOMIMStore neighborWithArea:nil sex:0 location:CLLocationCoordinate2DMake(0, 0) callback:^(NSInteger ret, id result, NSError *error) {
+        NSLog(@"result:%@",result);
+    }];
+}
 
 - (void)testPerformanceExample {
     // This is an example of a performance test case.
