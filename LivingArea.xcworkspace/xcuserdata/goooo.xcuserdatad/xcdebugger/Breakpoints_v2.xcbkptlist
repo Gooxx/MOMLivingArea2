@@ -35,13 +35,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "LivingArea/Classes/Tool/networking/MOMNetWorking.m"
-            timestampString = "469524523.393294"
+            filePath = "LivingArea/Classes/Tool/QRCode/MKWQRCodeViewController.m"
+            timestampString = "469606474.986631"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86"
-            landmarkName = "+simulateData:callback:"
+            startingLineNumber = "178"
+            endingLineNumber = "178"
+            landmarkName = "-captureOutput:didOutputMetadataObjects:fromConnection:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -51,46 +51,46 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "LivingArea/Classes/Store/IM/MOMIMStore.m"
-            timestampString = "469524549.303648"
+            filePath = "LivingArea/Classes/View/User/MOMUserView.m"
+            timestampString = "469675177.530572"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
-            landmarkName = "+neighborWithArea:sex:location:callback:"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "-init"
             landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "+[MOMIMStore neighborWithArea:sex:location:callback:]"
-                  moduleName = "LivingArea"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/goooo/Desktop/wokspace/LivingArea/LivingArea/Classes/Store/IM/MOMIMStore.m"
-                  timestampString = "469524616.793969"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18"
-                  offsetFromSymbolStart = "248">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__53+[MOMIMStore neighborWithArea:sex:location:callback:]_block_invoke"
-                  moduleName = "LivingArea"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/goooo/Desktop/wokspace/LivingArea/LivingArea/Classes/Store/IM/MOMIMStore.m"
-                  timestampString = "469524616.794125"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18"
-                  offsetFromSymbolStart = "74">
-               </Location>
-            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LivingArea/Classes/ViewController/BBS/MOMUserController.m"
+            timestampString = "469676158.428529"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LivingArea/Classes/View/Text/MOMTextField.m"
+            timestampString = "469692153.611544"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "-textFiledEditChanged:"
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

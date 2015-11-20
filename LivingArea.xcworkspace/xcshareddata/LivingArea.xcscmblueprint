@@ -7,12 +7,14 @@
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "CB30FA79DA175B113F664354FD347D4F35475453" : 0,
-    "edda36ef-85a5-004d-9115-9a14e77ad9fc++5282" : 0
+    "edda36ef-85a5-004d-9115-9a14e77ad9fc++5282" : 0,
+    "E51A53AD48AC844627C0351F5A9A3CB85239C506" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4943781F-7A56-4206-AA02-1BD55FAAF706",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "CB30FA79DA175B113F664354FD347D4F35475453" : "LivingArea",
-    "edda36ef-85a5-004d-9115-9a14e77ad9fc++5282" : "LivingArea\/LivingArea\/Classes\/Tool\/MBProgressHUD\/"
+    "edda36ef-85a5-004d-9115-9a14e77ad9fc++5282" : "LivingArea\/LivingArea\/Classes\/Tool\/MBProgressHUD\/",
+    "E51A53AD48AC844627C0351F5A9A3CB85239C506" : "MOMLivingArea\/LivingArea\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "LivingArea",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -22,6 +24,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Gooxx\/MOMLivingArea.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CB30FA79DA175B113F664354FD347D4F35475453"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.oschina.net:chentao_sinabell\/MOMLivingArea.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E51A53AD48AC844627C0351F5A9A3CB85239C506"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/168.168.1.183\/svn\/iOS",
