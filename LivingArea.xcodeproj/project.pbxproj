@@ -240,6 +240,9 @@
 		1852BA851BE0AE8000134166 /* title_bar_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852BA631BE0AE8000134166 /* title_bar_logo@2x.png */; };
 		1852BA861BE0AE8000134166 /* title_bar_more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852BA641BE0AE8000134166 /* title_bar_more@2x.png */; };
 		1852BA921BE0AFF300134166 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1852BA8E1BE0AFF300134166 /* MainViewController.m */; };
+		18553C9F1C02B0DD00BB8305 /* MOMMessageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 18553C9E1C02B0DD00BB8305 /* MOMMessageStore.m */; settings = {ASSET_TAGS = (); }; };
+		18553CA31C02B2C300BB8305 /* MOMMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 18553CA21C02B2C300BB8305 /* MOMMessage.m */; settings = {ASSET_TAGS = (); }; };
+		18553CA71C02BA0600BB8305 /* MOMNetWorking+User.m in Sources */ = {isa = PBXBuildFile; fileRef = 18553CA61C02BA0600BB8305 /* MOMNetWorking+User.m */; settings = {ASSET_TAGS = (); }; };
 		1856E2B41BF97C1B00EE6ECF /* MOMProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1856E2B31BF97C1B00EE6ECF /* MOMProgressHUD.m */; settings = {ASSET_TAGS = (); }; };
 		1856E2B91BF9BBAA00EE6ECF /* MOMCurrentUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1856E2B81BF9BBAA00EE6ECF /* MOMCurrentUser.m */; settings = {ASSET_TAGS = (); }; };
 		1856E2C51BF9BDF900EE6ECF /* bbsTitle.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1856E2C31BF9BDF900EE6ECF /* bbsTitle.plist */; settings = {ASSET_TAGS = (); }; };
@@ -291,7 +294,6 @@
 		185E50F21BDA027B00AC392E /* MOMBBSStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 185E50B21BDA027B00AC392E /* MOMBBSStore.m */; };
 		185E50F31BDA027B00AC392E /* MOMUserStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 185E50B51BDA027B00AC392E /* MOMUserStore.m */; };
 		185E50F41BDA027B00AC392E /* MOMModelHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 185E50B91BDA027B00AC392E /* MOMModelHelper.m */; };
-		185E50F51BDA027B00AC392E /* MOMNetWorking+User.m in Sources */ = {isa = PBXBuildFile; fileRef = 185E50BC1BDA027B00AC392E /* MOMNetWorking+User.m */; };
 		185E50F61BDA027B00AC392E /* MOMNetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = 185E50BE1BDA027B00AC392E /* MOMNetWorking.m */; };
 		185E50F71BDA027B00AC392E /* MOMNetWorkingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 185E50C01BDA027B00AC392E /* MOMNetWorkingHelper.m */; };
 		185E50F81BDA027B00AC392E /* MOMSecurityHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 185E50C31BDA027B00AC392E /* MOMSecurityHelper.m */; };
@@ -322,6 +324,13 @@
 		18769EB91BF434DB0056BCAE /* MOMUserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18769EB81BF434DB0056BCAE /* MOMUserController.m */; settings = {ASSET_TAGS = (); }; };
 		18769EBD1BF4450A0056BCAE /* MOMArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 18769EBC1BF4450A0056BCAE /* MOMArea.m */; settings = {ASSET_TAGS = (); }; };
 		18769EC11BF470C70056BCAE /* MOMApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 18769EC01BF470C70056BCAE /* MOMApplication.m */; settings = {ASSET_TAGS = (); }; };
+		189ABDEF1C040419005C3192 /* MOMMyBBSController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189ABDEE1C040419005C3192 /* MOMMyBBSController.m */; settings = {ASSET_TAGS = (); }; };
+		189ABDF11C040CEC005C3192 /* MOMBBSTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189ABDF01C040CEC005C3192 /* MOMBBSTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		189ABDF41C04448C005C3192 /* MOMMyCollectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189ABDF31C04448C005C3192 /* MOMMyCollectController.m */; settings = {ASSET_TAGS = (); }; };
+		189ABDF71C044E79005C3192 /* MOMMyFriendController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189ABDF61C044E79005C3192 /* MOMMyFriendController.m */; settings = {ASSET_TAGS = (); }; };
+		189ABDFA1C044E92005C3192 /* MOMMyCardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189ABDF91C044E92005C3192 /* MOMMyCardController.m */; settings = {ASSET_TAGS = (); }; };
+		189ABDFD1C05496F005C3192 /* MOMNeighborTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189ABDFC1C05496F005C3192 /* MOMNeighborTableController.m */; settings = {ASSET_TAGS = (); }; };
+		189ABE001C055EAB005C3192 /* MOMSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189ABDFF1C055EAB005C3192 /* MOMSettingController.m */; settings = {ASSET_TAGS = (); }; };
 		18E257771BEAE9BD00AE49E1 /* MKWQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E257761BEAE9BD00AE49E1 /* MKWQRCodeViewController.m */; settings = {ASSET_TAGS = (); }; };
 		18E2577A1BEB28E400AE49E1 /* MOMChatController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E257791BEB28E400AE49E1 /* MOMChatController.m */; settings = {ASSET_TAGS = (); }; };
 		18E2577D1BEB2AAB00AE49E1 /* MOMMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E2577C1BEB2AAB00AE49E1 /* MOMMessageController.m */; settings = {ASSET_TAGS = (); }; };
@@ -753,6 +762,12 @@
 		1852BA641BE0AE8000134166 /* title_bar_more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "title_bar_more@2x.png"; sourceTree = "<group>"; };
 		1852BA8D1BE0AFF300134166 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		1852BA8E1BE0AFF300134166 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		18553C9D1C02B0DD00BB8305 /* MOMMessageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOMMessageStore.h; path = Message/MOMMessageStore.h; sourceTree = "<group>"; };
+		18553C9E1C02B0DD00BB8305 /* MOMMessageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOMMessageStore.m; path = Message/MOMMessageStore.m; sourceTree = "<group>"; };
+		18553CA11C02B2C300BB8305 /* MOMMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOMMessage.h; path = Message/MOMMessage.h; sourceTree = "<group>"; };
+		18553CA21C02B2C300BB8305 /* MOMMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOMMessage.m; path = Message/MOMMessage.m; sourceTree = "<group>"; };
+		18553CA51C02BA0600BB8305 /* MOMNetWorking+User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MOMNetWorking+User.h"; sourceTree = "<group>"; };
+		18553CA61C02BA0600BB8305 /* MOMNetWorking+User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MOMNetWorking+User.m"; sourceTree = "<group>"; };
 		1856E2B21BF97C1B00EE6ECF /* MOMProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOMProgressHUD.h; path = HUD/MOMProgressHUD.h; sourceTree = "<group>"; };
 		1856E2B31BF97C1B00EE6ECF /* MOMProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOMProgressHUD.m; path = HUD/MOMProgressHUD.m; sourceTree = "<group>"; };
 		1856E2B71BF9BBAA00EE6ECF /* MOMCurrentUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOMCurrentUser.h; sourceTree = "<group>"; };
@@ -847,8 +862,6 @@
 		185E50B51BDA027B00AC392E /* MOMUserStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOMUserStore.m; sourceTree = "<group>"; };
 		185E50B81BDA027B00AC392E /* MOMModelHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOMModelHelper.h; sourceTree = "<group>"; };
 		185E50B91BDA027B00AC392E /* MOMModelHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOMModelHelper.m; sourceTree = "<group>"; };
-		185E50BB1BDA027B00AC392E /* MOMNetWorking+User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MOMNetWorking+User.h"; sourceTree = "<group>"; };
-		185E50BC1BDA027B00AC392E /* MOMNetWorking+User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MOMNetWorking+User.m"; sourceTree = "<group>"; };
 		185E50BD1BDA027B00AC392E /* MOMNetWorking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOMNetWorking.h; sourceTree = "<group>"; };
 		185E50BE1BDA027B00AC392E /* MOMNetWorking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOMNetWorking.m; sourceTree = "<group>"; };
 		185E50BF1BDA027B00AC392E /* MOMNetWorkingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOMNetWorkingHelper.h; sourceTree = "<group>"; };
@@ -909,6 +922,19 @@
 		18769EBC1BF4450A0056BCAE /* MOMArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOMArea.m; path = Area/MOMArea.m; sourceTree = "<group>"; };
 		18769EBF1BF470C70056BCAE /* MOMApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOMApplication.h; path = App/MOMApplication.h; sourceTree = "<group>"; };
 		18769EC01BF470C70056BCAE /* MOMApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOMApplication.m; path = App/MOMApplication.m; sourceTree = "<group>"; };
+		189ABDED1C040419005C3192 /* MOMMyBBSController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOMMyBBSController.h; path = My/MOMMyBBSController.h; sourceTree = "<group>"; };
+		189ABDEE1C040419005C3192 /* MOMMyBBSController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOMMyBBSController.m; path = My/MOMMyBBSController.m; sourceTree = "<group>"; };
+		189ABDF01C040CEC005C3192 /* MOMBBSTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MOMBBSTableViewCell.xib; sourceTree = "<group>"; };
+		189ABDF21C04448C005C3192 /* MOMMyCollectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOMMyCollectController.h; path = My/MOMMyCollectController.h; sourceTree = "<group>"; };
+		189ABDF31C04448C005C3192 /* MOMMyCollectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOMMyCollectController.m; path = My/MOMMyCollectController.m; sourceTree = "<group>"; };
+		189ABDF51C044E79005C3192 /* MOMMyFriendController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOMMyFriendController.h; path = My/MOMMyFriendController.h; sourceTree = "<group>"; };
+		189ABDF61C044E79005C3192 /* MOMMyFriendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOMMyFriendController.m; path = My/MOMMyFriendController.m; sourceTree = "<group>"; };
+		189ABDF81C044E92005C3192 /* MOMMyCardController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOMMyCardController.h; path = My/MOMMyCardController.h; sourceTree = "<group>"; };
+		189ABDF91C044E92005C3192 /* MOMMyCardController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOMMyCardController.m; path = My/MOMMyCardController.m; sourceTree = "<group>"; };
+		189ABDFB1C05496F005C3192 /* MOMNeighborTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOMNeighborTableController.h; sourceTree = "<group>"; };
+		189ABDFC1C05496F005C3192 /* MOMNeighborTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOMNeighborTableController.m; sourceTree = "<group>"; };
+		189ABDFE1C055EAB005C3192 /* MOMSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOMSettingController.h; sourceTree = "<group>"; };
+		189ABDFF1C055EAB005C3192 /* MOMSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOMSettingController.m; sourceTree = "<group>"; };
 		18E257751BEAE9BD00AE49E1 /* MKWQRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKWQRCodeViewController.h; sourceTree = "<group>"; };
 		18E257761BEAE9BD00AE49E1 /* MKWQRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKWQRCodeViewController.m; sourceTree = "<group>"; };
 		18E257781BEB28E400AE49E1 /* MOMChatController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOMChatController.h; sourceTree = "<group>"; };
@@ -1496,6 +1522,31 @@
 			path = LoginAndMain;
 			sourceTree = "<group>";
 		};
+		18553C9C1C02B04B00BB8305 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				18553C9D1C02B0DD00BB8305 /* MOMMessageStore.h */,
+				18553C9E1C02B0DD00BB8305 /* MOMMessageStore.m */,
+			);
+			name = Message;
+			sourceTree = "<group>";
+		};
+		18553CA01C02B29C00BB8305 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				18553CA11C02B2C300BB8305 /* MOMMessage.h */,
+				18553CA21C02B2C300BB8305 /* MOMMessage.m */,
+			);
+			name = Message;
+			sourceTree = "<group>";
+		};
+		18553CA41C02B36900BB8305 /* More */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = More;
+			sourceTree = "<group>";
+		};
 		1856E2B01BF9699000EE6ECF /* Security */ = {
 			isa = PBXGroup;
 			children = (
@@ -1760,6 +1811,7 @@
 		185E50A61BDA027B00AC392E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				18553CA01C02B29C00BB8305 /* Message */,
 				18769EBE1BF470A20056BCAE /* App */,
 				18769EBA1BF444D10056BCAE /* Area */,
 				1852BA231BE0A30E00134166 /* IM */,
@@ -1795,6 +1847,8 @@
 		185E50AF1BDA027B00AC392E /* Store */ = {
 			isa = PBXGroup;
 			children = (
+				18553CA41C02B36900BB8305 /* More */,
+				18553C9C1C02B04B00BB8305 /* Message */,
 				1856E39E1BFC572500EE6ECF /* IM */,
 				185E50B01BDA027B00AC392E /* BBS */,
 				185E50B31BDA027B00AC392E /* User */,
@@ -1855,8 +1909,8 @@
 		185E50BA1BDA027B00AC392E /* networking */ = {
 			isa = PBXGroup;
 			children = (
-				185E50BB1BDA027B00AC392E /* MOMNetWorking+User.h */,
-				185E50BC1BDA027B00AC392E /* MOMNetWorking+User.m */,
+				18553CA51C02BA0600BB8305 /* MOMNetWorking+User.h */,
+				18553CA61C02BA0600BB8305 /* MOMNetWorking+User.m */,
 				185E50BD1BDA027B00AC392E /* MOMNetWorking.h */,
 				185E50BE1BDA027B00AC392E /* MOMNetWorking.m */,
 				185E50BF1BDA027B00AC392E /* MOMNetWorkingHelper.h */,
@@ -1890,6 +1944,7 @@
 			children = (
 				185E50C61BDA027B00AC392E /* MOMBBSTableViewCell.h */,
 				185E50C71BDA027B00AC392E /* MOMBBSTableViewCell.m */,
+				189ABDF01C040CEC005C3192 /* MOMBBSTableViewCell.xib */,
 			);
 			path = BBS;
 			sourceTree = "<group>";
@@ -1930,6 +1985,7 @@
 		185E50CC1BDA027B00AC392E /* BBS */ = {
 			isa = PBXGroup;
 			children = (
+				189ABDEC1C0403E1005C3192 /* Mine */,
 				185E50CD1BDA027B00AC392E /* MOMBBSController.h */,
 				185E50CE1BDA027B00AC392E /* MOMBBSController.m */,
 				1852B60C1BDDF7790081AD7E /* MOMBBSDetailController.h */,
@@ -1958,12 +2014,14 @@
 		185E50D21BDA027B00AC392E /* IM */ = {
 			isa = PBXGroup;
 			children = (
+				189ABDFB1C05496F005C3192 /* MOMNeighborTableController.h */,
+				189ABDFC1C05496F005C3192 /* MOMNeighborTableController.m */,
+				1856E3A51BFC6D5C00EE6ECF /* MOMNeighborController.h */,
+				1856E3A61BFC6D5C00EE6ECF /* MOMNeighborController.m */,
 				18E257781BEB28E400AE49E1 /* MOMChatController.h */,
 				18E257791BEB28E400AE49E1 /* MOMChatController.m */,
 				1852BA271BE0A88C00134166 /* MOMUsersController.h */,
 				1852BA281BE0A88C00134166 /* MOMUsersController.m */,
-				1856E3A51BFC6D5C00EE6ECF /* MOMNeighborController.h */,
-				1856E3A61BFC6D5C00EE6ECF /* MOMNeighborController.m */,
 				1859A0091BFD9978001FDA3D /* MOMFriendAddController.h */,
 				1859A00A1BFD9978001FDA3D /* MOMFriendAddController.m */,
 			);
@@ -1993,6 +2051,8 @@
 				185E50DE1BDA027B00AC392E /* MOMMainController.m */,
 				180A861E1BEA013500449525 /* MOMViewController.h */,
 				180A861F1BEA013500449525 /* MOMViewController.m */,
+				189ABDFE1C055EAB005C3192 /* MOMSettingController.h */,
+				189ABDFF1C055EAB005C3192 /* MOMSettingController.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -2091,6 +2151,21 @@
 				18769EC01BF470C70056BCAE /* MOMApplication.m */,
 			);
 			name = App;
+			sourceTree = "<group>";
+		};
+		189ABDEC1C0403E1005C3192 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				189ABDED1C040419005C3192 /* MOMMyBBSController.h */,
+				189ABDEE1C040419005C3192 /* MOMMyBBSController.m */,
+				189ABDF21C04448C005C3192 /* MOMMyCollectController.h */,
+				189ABDF31C04448C005C3192 /* MOMMyCollectController.m */,
+				189ABDF51C044E79005C3192 /* MOMMyFriendController.h */,
+				189ABDF61C044E79005C3192 /* MOMMyFriendController.m */,
+				189ABDF81C044E92005C3192 /* MOMMyCardController.h */,
+				189ABDF91C044E92005C3192 /* MOMMyCardController.m */,
+			);
+			name = Mine;
 			sourceTree = "<group>";
 		};
 		18E257741BEAE9BD00AE49E1 /* QRCode */ = {
@@ -2233,6 +2308,7 @@
 				1852BA711BE0AE8000134166 /* log_accounts_icon_selected@2x.png in Resources */,
 				1852BA851BE0AE8000134166 /* title_bar_logo@2x.png in Resources */,
 				185BDF121BD63C6200D3EE23 /* bigShadow.png in Resources */,
+				189ABDF11C040CEC005C3192 /* MOMBBSTableViewCell.xib in Resources */,
 				1852BA7D1BE0AE8000134166 /* select_account_list_unchecked@2x.png in Resources */,
 				1852BA781BE0AE8000134166 /* select_account_bottom@2x.png in Resources */,
 				1852BA831BE0AE8000134166 /* title_bar_add@2x.png in Resources */,
@@ -2352,11 +2428,13 @@
 				1852B9281BDE12710081AD7E /* GPUImageVoronoiConsumerFilter.m in Sources */,
 				1852B8961BDE12710081AD7E /* GPUImageAverageLuminanceThresholdFilter.m in Sources */,
 				185E51061BDA027B00AC392E /* View2Controller.m in Sources */,
+				18553C9F1C02B0DD00BB8305 /* MOMMessageStore.m in Sources */,
 				1852B8E71BDE12710081AD7E /* GPUImageMotionDetector.m in Sources */,
 				1859A0121BFDC57F001FDA3D /* MOMUserView.m in Sources */,
 				1852B9031BDE12710081AD7E /* GPUImageSaturationBlendFilter.m in Sources */,
 				1859A0081BFD73A8001FDA3D /* BTSpiderPlotterView.m in Sources */,
 				1852B8A21BDE12710081AD7E /* GPUImageColorBurnBlendFilter.m in Sources */,
+				189ABDF71C044E79005C3192 /* MOMMyFriendController.m in Sources */,
 				1852B8BB1BDE12710081AD7E /* GPUImageFramebuffer.m in Sources */,
 				1852B8F01BDE12710081AD7E /* GPUImageOutput.m in Sources */,
 				18769EAF1BF1DCEE0056BCAE /* Node.m in Sources */,
@@ -2392,6 +2470,7 @@
 				1852B91F1BDE12710081AD7E /* GPUImageTransformFilter.m in Sources */,
 				1852B9001BDE12710081AD7E /* GPUImageRGBErosionFilter.m in Sources */,
 				180A86101BE8855100449525 /* MOMPasswordCodeController.m in Sources */,
+				189ABE001C055EAB005C3192 /* MOMSettingController.m in Sources */,
 				1852B8DB1BDE12710081AD7E /* GPUImageLookupFilter.m in Sources */,
 				1852B8EC1BDE12710081AD7E /* GPUImageNonMaximumSuppressionFilter.m in Sources */,
 				1852B8B51BDE12710081AD7E /* GPUImageExposureFilter.m in Sources */,
@@ -2462,12 +2541,14 @@
 				1852B89B1BDE12710081AD7E /* GPUImageBulgeDistortionFilter.m in Sources */,
 				18E2577D1BEB2AAB00AE49E1 /* MOMMessageController.m in Sources */,
 				1852B8DD1BDE12710081AD7E /* GPUImageLuminanceRangeFilter.m in Sources */,
+				189ABDEF1C040419005C3192 /* MOMMyBBSController.m in Sources */,
 				1852B8B31BDE12710081AD7E /* GPUImageErosionFilter.m in Sources */,
 				1852B8E01BDE12710081AD7E /* GPUImageLuminosityBlendFilter.m in Sources */,
 				1852B8EB1BDE12710081AD7E /* GPUImageNobleCornerDetectionFilter.m in Sources */,
 				1852B8AD1BDE12710081AD7E /* GPUImageDilationFilter.m in Sources */,
 				185E51071BDA027B00AC392E /* ViewController.m in Sources */,
 				1852B9021BDE12710081AD7E /* GPUImageRGBOpeningFilter.m in Sources */,
+				189ABDFA1C044E92005C3192 /* MOMMyCardController.m in Sources */,
 				1852B9181BDE12710081AD7E /* GPUImageThreeInputFilter.m in Sources */,
 				1852B89D1BDE12710081AD7E /* GPUImageCGAColorspaceFilter.m in Sources */,
 				1852B8C81BDE12710081AD7E /* GPUImageHighPassFilter.m in Sources */,
@@ -2505,6 +2586,7 @@
 				1852B8B01BDE12710081AD7E /* GPUImageDissolveBlendFilter.m in Sources */,
 				1852B9231BDE12710081AD7E /* GPUImageTwoPassTextureSamplingFilter.m in Sources */,
 				1852B8921BDE12710081AD7E /* GPUImageAddBlendFilter.m in Sources */,
+				189ABDFD1C05496F005C3192 /* MOMNeighborTableController.m in Sources */,
 				1852B8991BDE12710081AD7E /* GPUImageBrightnessFilter.m in Sources */,
 				185E50F61BDA027B00AC392E /* MOMNetWorking.m in Sources */,
 				1852B8DC1BDE12710081AD7E /* GPUImageLowPassFilter.m in Sources */,
@@ -2516,12 +2598,13 @@
 				1852B8D71BDE12710081AD7E /* GPUImageLightenBlendFilter.m in Sources */,
 				1852B8B61BDE12710081AD7E /* GPUImageFalseColorFilter.m in Sources */,
 				1852B8FA1BDE12710081AD7E /* GPUImagePosterizeFilter.m in Sources */,
+				18553CA31C02B2C300BB8305 /* MOMMessage.m in Sources */,
 				1852B90D1BDE12710081AD7E /* GPUImageSoftEleganceFilter.m in Sources */,
 				1852B8941BDE12710081AD7E /* GPUImageAmatorkaFilter.m in Sources */,
 				180A86181BE893F100449525 /* MOMButton.m in Sources */,
+				189ABDF41C04448C005C3192 /* MOMMyCollectController.m in Sources */,
 				1852B8D81BDE12710081AD7E /* GPUImageLinearBurnBlendFilter.m in Sources */,
 				1852B9011BDE12710081AD7E /* GPUImageRGBFilter.m in Sources */,
-				185E50F51BDA027B00AC392E /* MOMNetWorking+User.m in Sources */,
 				1852B88E1BDE12710081AD7E /* GLProgram.m in Sources */,
 				1852B8B71BDE12710081AD7E /* GPUImageFASTCornerDetectionFilter.m in Sources */,
 				1852B89F1BDE12710081AD7E /* GPUImageChromaKeyFilter.m in Sources */,
@@ -2561,6 +2644,7 @@
 				1852B8C31BDE12710081AD7E /* GPUImageHalftoneFilter.m in Sources */,
 				18769EA71BF1D39D0056BCAE /* TLCityPickerSearchResultController.m in Sources */,
 				1856E2CE1BF9C57400EE6ECF /* MOMBBSInfo.m in Sources */,
+				18553CA71C02BA0600BB8305 /* MOMNetWorking+User.m in Sources */,
 				18769E941BF1C6480056BCAE /* MOMBBSCommentTableController.m in Sources */,
 				1852B8AA1BDE12710081AD7E /* GPUImageCrosshatchFilter.m in Sources */,
 				1852B8FE1BDE12710081AD7E /* GPUImageRGBClosingFilter.m in Sources */,

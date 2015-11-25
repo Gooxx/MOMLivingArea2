@@ -15,6 +15,7 @@
 #import "MOMTest.h"
 #import "MOMUserStore.h"
 #import "MOMIMStore.h"
+#import "MOMMessageStore.h"
 #import "MOMApplication.h"
 @interface LivingAreaTests : XCTestCase
 
@@ -88,6 +89,12 @@
 -(void)testIMNeightors{
     [MOMIMStore neighborWithArea:nil sex:0 location:CLLocationCoordinate2DMake(0, 0) callback:^(NSInteger ret, id result, NSError *error) {
         NSLog(@"result:%@",result);
+    }];
+}
+
+-(void)testMessage{
+    [MOMMessageStore messagesCallback:^(NSInteger ret, id result, NSError *error) {
+        NSLog(@"ret:%ld,%@,%@",ret,result,error);
     }];
 }
 
