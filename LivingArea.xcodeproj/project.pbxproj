@@ -331,6 +331,16 @@
 		189ABDFA1C044E92005C3192 /* MOMMyCardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189ABDF91C044E92005C3192 /* MOMMyCardController.m */; settings = {ASSET_TAGS = (); }; };
 		189ABDFD1C05496F005C3192 /* MOMNeighborTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189ABDFC1C05496F005C3192 /* MOMNeighborTableController.m */; settings = {ASSET_TAGS = (); }; };
 		189ABE001C055EAB005C3192 /* MOMSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189ABDFF1C055EAB005C3192 /* MOMSettingController.m */; settings = {ASSET_TAGS = (); }; };
+		189ABE041C05A69E005C3192 /* MOMImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 189ABE031C05A69E005C3192 /* MOMImageView.m */; settings = {ASSET_TAGS = (); }; };
+		189ABE081C06D989005C3192 /* MOMTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 189ABE071C06D989005C3192 /* MOMTableView.m */; settings = {ASSET_TAGS = (); }; };
+		189ABE121C06DD09005C3192 /* CoclumnCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 189ABE0B1C06DD09005C3192 /* CoclumnCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		189ABE131C06DD09005C3192 /* ColumnReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 189ABE0D1C06DD09005C3192 /* ColumnReusableView.m */; settings = {ASSET_TAGS = (); }; };
+		189ABE141C06DD09005C3192 /* ColumnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189ABE0F1C06DD09005C3192 /* ColumnViewController.m */; settings = {ASSET_TAGS = (); }; };
+		189ABE151C06DD09005C3192 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 189ABE101C06DD09005C3192 /* delete.png */; settings = {ASSET_TAGS = (); }; };
+		189ABE191C06DD69005C3192 /* MOMMoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189ABE181C06DD69005C3192 /* MOMMoreController.m */; settings = {ASSET_TAGS = (); }; };
+		189ABE5D1C07FFC2005C3192 /* MOMCommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 189ABE5C1C07FFC2005C3192 /* MOMCommentCell.xib */; settings = {ASSET_TAGS = (); }; };
+		189ABE661C08065E005C3192 /* MOMCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 189ABE651C08065E005C3192 /* MOMCommentCell.m */; settings = {ASSET_TAGS = (); }; };
+		189ABE6A1C083483005C3192 /* MOMComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 189ABE691C083483005C3192 /* MOMComment.m */; settings = {ASSET_TAGS = (); }; };
 		18E257771BEAE9BD00AE49E1 /* MKWQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E257761BEAE9BD00AE49E1 /* MKWQRCodeViewController.m */; settings = {ASSET_TAGS = (); }; };
 		18E2577A1BEB28E400AE49E1 /* MOMChatController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E257791BEB28E400AE49E1 /* MOMChatController.m */; settings = {ASSET_TAGS = (); }; };
 		18E2577D1BEB2AAB00AE49E1 /* MOMMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E2577C1BEB2AAB00AE49E1 /* MOMMessageController.m */; settings = {ASSET_TAGS = (); }; };
@@ -345,6 +355,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 18574C5E1BA8FE6B00F8E7FA;
 			remoteInfo = LivingArea;
+		};
+		189ABE7B1C0C1C9D005C3192 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 189ABE771C0C1C9C005C3192 /* FastTextViewLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5EED2E6417DD72FA0080F277;
+			remoteInfo = FastTextViewLib;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -935,6 +952,26 @@
 		189ABDFC1C05496F005C3192 /* MOMNeighborTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOMNeighborTableController.m; sourceTree = "<group>"; };
 		189ABDFE1C055EAB005C3192 /* MOMSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOMSettingController.h; sourceTree = "<group>"; };
 		189ABDFF1C055EAB005C3192 /* MOMSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOMSettingController.m; sourceTree = "<group>"; };
+		189ABE021C05A69E005C3192 /* MOMImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOMImageView.h; path = ImageView/MOMImageView.h; sourceTree = "<group>"; };
+		189ABE031C05A69E005C3192 /* MOMImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOMImageView.m; path = ImageView/MOMImageView.m; sourceTree = "<group>"; };
+		189ABE061C06D989005C3192 /* MOMTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOMTableView.h; path = TableView/MOMTableView.h; sourceTree = "<group>"; };
+		189ABE071C06D989005C3192 /* MOMTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOMTableView.m; path = TableView/MOMTableView.m; sourceTree = "<group>"; };
+		189ABE0A1C06DD09005C3192 /* CoclumnCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoclumnCollectionViewCell.h; sourceTree = "<group>"; };
+		189ABE0B1C06DD09005C3192 /* CoclumnCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoclumnCollectionViewCell.m; sourceTree = "<group>"; };
+		189ABE0C1C06DD09005C3192 /* ColumnReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColumnReusableView.h; sourceTree = "<group>"; };
+		189ABE0D1C06DD09005C3192 /* ColumnReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColumnReusableView.m; sourceTree = "<group>"; };
+		189ABE0E1C06DD09005C3192 /* ColumnViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColumnViewController.h; sourceTree = "<group>"; };
+		189ABE0F1C06DD09005C3192 /* ColumnViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColumnViewController.m; sourceTree = "<group>"; };
+		189ABE101C06DD09005C3192 /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+		189ABE111C06DD09005C3192 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		189ABE171C06DD69005C3192 /* MOMMoreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOMMoreController.h; path = More/MOMMoreController.h; sourceTree = "<group>"; };
+		189ABE181C06DD69005C3192 /* MOMMoreController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOMMoreController.m; path = More/MOMMoreController.m; sourceTree = "<group>"; };
+		189ABE5C1C07FFC2005C3192 /* MOMCommentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MOMCommentCell.xib; path = Comment/MOMCommentCell.xib; sourceTree = "<group>"; };
+		189ABE641C08065E005C3192 /* MOMCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOMCommentCell.h; path = Comment/MOMCommentCell.h; sourceTree = "<group>"; };
+		189ABE651C08065E005C3192 /* MOMCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOMCommentCell.m; path = Comment/MOMCommentCell.m; sourceTree = "<group>"; };
+		189ABE681C083483005C3192 /* MOMComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOMComment.h; path = Comment/MOMComment.h; sourceTree = "<group>"; };
+		189ABE691C083483005C3192 /* MOMComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOMComment.m; path = Comment/MOMComment.m; sourceTree = "<group>"; };
+		189ABE771C0C1C9C005C3192 /* FastTextViewLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FastTextViewLib.xcodeproj; path = FastTextViewLib/FastTextViewLib.xcodeproj; sourceTree = "<group>"; };
 		18E257751BEAE9BD00AE49E1 /* MKWQRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKWQRCodeViewController.h; sourceTree = "<group>"; };
 		18E257761BEAE9BD00AE49E1 /* MKWQRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKWQRCodeViewController.m; sourceTree = "<group>"; };
 		18E257781BEB28E400AE49E1 /* MOMChatController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOMChatController.h; sourceTree = "<group>"; };
@@ -1811,6 +1848,7 @@
 		185E50A61BDA027B00AC392E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				189ABE671C08345B005C3192 /* Comment */,
 				18553CA01C02B29C00BB8305 /* Message */,
 				18769EBE1BF470A20056BCAE /* App */,
 				18769EBA1BF444D10056BCAE /* Area */,
@@ -1877,6 +1915,7 @@
 		185E50B61BDA027B00AC392E /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				189ABE091C06DD09005C3192 /* Column */,
 				1859A0051BFD73A8001FDA3D /* BTSpiderPlotterView */,
 				1856E37D1BFC21B200EE6ECF /* SVProgressHUD */,
 				1856E3791BFC1C2C00EE6ECF /* Net */,
@@ -1931,6 +1970,9 @@
 		185E50C41BDA027B00AC392E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				189ABE581C07FF40005C3192 /* Comment */,
+				189ABE051C06D93B005C3192 /* TableView */,
+				189ABE011C05A66C005C3192 /* ImageView */,
 				1859A00F1BFDC54D001FDA3D /* User */,
 				180A861A1BE9999F00449525 /* Text */,
 				180A86191BE893F700449525 /* Button */,
@@ -1961,6 +2003,7 @@
 				185E50D21BDA027B00AC392E /* IM */,
 				185E50DF1BDA027B00AC392E /* Map */,
 				185E50E21BDA027B00AC392E /* Message */,
+				189ABE161C06DD38005C3192 /* More */,
 				185E50E51BDA027B00AC392E /* Table1ViewController.h */,
 				185E50E61BDA027B00AC392E /* Table1ViewController.m */,
 				185E50E71BDA027B00AC392E /* Table2ViewController.h */,
@@ -2168,6 +2211,75 @@
 			name = Mine;
 			sourceTree = "<group>";
 		};
+		189ABE011C05A66C005C3192 /* ImageView */ = {
+			isa = PBXGroup;
+			children = (
+				189ABE021C05A69E005C3192 /* MOMImageView.h */,
+				189ABE031C05A69E005C3192 /* MOMImageView.m */,
+			);
+			name = ImageView;
+			sourceTree = "<group>";
+		};
+		189ABE051C06D93B005C3192 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				189ABE061C06D989005C3192 /* MOMTableView.h */,
+				189ABE071C06D989005C3192 /* MOMTableView.m */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
+		189ABE091C06DD09005C3192 /* Column */ = {
+			isa = PBXGroup;
+			children = (
+				189ABE0A1C06DD09005C3192 /* CoclumnCollectionViewCell.h */,
+				189ABE0B1C06DD09005C3192 /* CoclumnCollectionViewCell.m */,
+				189ABE0C1C06DD09005C3192 /* ColumnReusableView.h */,
+				189ABE0D1C06DD09005C3192 /* ColumnReusableView.m */,
+				189ABE0E1C06DD09005C3192 /* ColumnViewController.h */,
+				189ABE0F1C06DD09005C3192 /* ColumnViewController.m */,
+				189ABE101C06DD09005C3192 /* delete.png */,
+				189ABE111C06DD09005C3192 /* Header.h */,
+			);
+			path = Column;
+			sourceTree = "<group>";
+		};
+		189ABE161C06DD38005C3192 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				189ABE171C06DD69005C3192 /* MOMMoreController.h */,
+				189ABE181C06DD69005C3192 /* MOMMoreController.m */,
+			);
+			name = More;
+			sourceTree = "<group>";
+		};
+		189ABE581C07FF40005C3192 /* Comment */ = {
+			isa = PBXGroup;
+			children = (
+				189ABE5C1C07FFC2005C3192 /* MOMCommentCell.xib */,
+				189ABE641C08065E005C3192 /* MOMCommentCell.h */,
+				189ABE651C08065E005C3192 /* MOMCommentCell.m */,
+			);
+			name = Comment;
+			sourceTree = "<group>";
+		};
+		189ABE671C08345B005C3192 /* Comment */ = {
+			isa = PBXGroup;
+			children = (
+				189ABE681C083483005C3192 /* MOMComment.h */,
+				189ABE691C083483005C3192 /* MOMComment.m */,
+			);
+			name = Comment;
+			sourceTree = "<group>";
+		};
+		189ABE781C0C1C9C005C3192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				189ABE7C1C0C1C9D005C3192 /* libFastTextViewLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		18E257741BEAE9BD00AE49E1 /* QRCode */ = {
 			isa = PBXGroup;
 			children = (
@@ -2180,6 +2292,7 @@
 		69C74A9FE232A640C68195AA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				189ABE771C0C1C9C005C3192 /* FastTextViewLib.xcodeproj */,
 				1852BA3E1BE0ACEA00134166 /* SystemConfiguration.framework */,
 				1852BA3C1BE0ACE000134166 /* MobileCoreServices.framework */,
 				1852BA3A1BE0ACD700134166 /* MediaPlayer.framework */,
@@ -2257,7 +2370,7 @@
 				TargetAttributes = {
 					18574C5E1BA8FE6B00F8E7FA = {
 						CreatedOnToolsVersion = 6.4;
-						DevelopmentTeam = 9SYM9TBD8U;
+						DevelopmentTeam = UR36H366BC;
 					};
 					18574C771BA8FE6B00F8E7FA = {
 						CreatedOnToolsVersion = 6.4;
@@ -2276,6 +2389,12 @@
 			mainGroup = 18574C561BA8FE6B00F8E7FA;
 			productRefGroup = 18574C601BA8FE6B00F8E7FA /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 189ABE781C0C1C9C005C3192 /* Products */;
+					ProjectRef = 189ABE771C0C1C9C005C3192 /* FastTextViewLib.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				18574C5E1BA8FE6B00F8E7FA /* LivingArea */,
@@ -2283,6 +2402,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		189ABE7C1C0C1C9D005C3192 /* libFastTextViewLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFastTextViewLib.a;
+			remoteRef = 189ABE7B1C0C1C9D005C3192 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		18574C5D1BA8FE6B00F8E7FA /* Resources */ = {
@@ -2308,6 +2437,7 @@
 				1852BA711BE0AE8000134166 /* log_accounts_icon_selected@2x.png in Resources */,
 				1852BA851BE0AE8000134166 /* title_bar_logo@2x.png in Resources */,
 				185BDF121BD63C6200D3EE23 /* bigShadow.png in Resources */,
+				189ABE5D1C07FFC2005C3192 /* MOMCommentCell.xib in Resources */,
 				189ABDF11C040CEC005C3192 /* MOMBBSTableViewCell.xib in Resources */,
 				1852BA7D1BE0AE8000134166 /* select_account_list_unchecked@2x.png in Resources */,
 				1852BA781BE0AE8000134166 /* select_account_bottom@2x.png in Resources */,
@@ -2337,6 +2467,7 @@
 				1852BA7E1BE0AE8000134166 /* select_account_prompt@2x.png in Resources */,
 				1856E2CB1BF9C51300EE6ECF /* bbsList.plist in Resources */,
 				185BDF031BD61E6E00D3EE23 /* User.storyboard in Resources */,
+				189ABE151C06DD09005C3192 /* delete.png in Resources */,
 				1852B9321BDE12710081AD7E /* License.txt in Resources */,
 				1852BA771BE0AE8000134166 /* male_default_head_img@2x.png in Resources */,
 				1856E3911BFC554E00EE6ECF /* nearUserInfo.plist in Resources */,
@@ -2465,6 +2596,7 @@
 				1852B8AC1BDE12710081AD7E /* GPUImageDifferenceBlendFilter.m in Sources */,
 				185E50F71BDA027B00AC392E /* MOMNetWorkingHelper.m in Sources */,
 				1859A00E1BFDC023001FDA3D /* MOMUserInfoController.m in Sources */,
+				189ABE141C06DD09005C3192 /* ColumnViewController.m in Sources */,
 				18769EA51BF1D39D0056BCAE /* TLCityHeaderView.m in Sources */,
 				1852B8E91BDE12710081AD7E /* GPUImageMovieComposition.m in Sources */,
 				1852B91F1BDE12710081AD7E /* GPUImageTransformFilter.m in Sources */,
@@ -2496,6 +2628,7 @@
 				1852B8BF1BDE12710081AD7E /* GPUImageGaussianBlurPositionFilter.m in Sources */,
 				1852B9101BDE12710081AD7E /* GPUImageSourceOverBlendFilter.m in Sources */,
 				18769EC11BF470C70056BCAE /* MOMApplication.m in Sources */,
+				189ABE6A1C083483005C3192 /* MOMComment.m in Sources */,
 				1852B8D01BDE12710081AD7E /* GPUImageiOSBlurFilter.m in Sources */,
 				185E50FF1BDA027B00AC392E /* MOMLoginNavigationController.m in Sources */,
 				1852B90C1BDE12710081AD7E /* GPUImageSobelEdgeDetectionFilter.m in Sources */,
@@ -2504,12 +2637,14 @@
 				18769EB61BF2E6510056BCAE /* MOMPublishController.m in Sources */,
 				1852B91E1BDE12710081AD7E /* GPUImageToonFilter.m in Sources */,
 				1852B9151BDE12710081AD7E /* GPUImageSwirlFilter.m in Sources */,
+				189ABE661C08065E005C3192 /* MOMCommentCell.m in Sources */,
 				18769EB91BF434DB0056BCAE /* MOMUserController.m in Sources */,
 				1852B8F41BDE12710081AD7E /* GPUImagePinchDistortionFilter.m in Sources */,
 				1852B8971BDE12710081AD7E /* GPUImageBilateralFilter.m in Sources */,
 				1852B8CC1BDE12710081AD7E /* GPUImageHoughTransformLineDetector.m in Sources */,
 				1852B8951BDE12710081AD7E /* GPUImageAverageColor.m in Sources */,
 				1852B8A81BDE12710081AD7E /* GPUImageCropFilter.m in Sources */,
+				189ABE041C05A69E005C3192 /* MOMImageView.m in Sources */,
 				1856E2B91BF9BBAA00EE6ECF /* MOMCurrentUser.m in Sources */,
 				18769EA41BF1D39D0056BCAE /* TLCityGroupCell.m in Sources */,
 				1852B8D31BDE12710081AD7E /* GPUImageKuwaharaRadius3Filter.m in Sources */,
@@ -2581,12 +2716,14 @@
 				1852B9331BDE12710081AD7E /* README.md in Sources */,
 				1852B8A61BDE12710081AD7E /* GPUImageColorPackingFilter.m in Sources */,
 				1852B89A1BDE12710081AD7E /* GPUImageBuffer.m in Sources */,
+				189ABE121C06DD09005C3192 /* CoclumnCollectionViewCell.m in Sources */,
 				1852B92B1BDE12710081AD7E /* GPUImageXYDerivativeFilter.m in Sources */,
 				185E50FA1BDA027B00AC392E /* MOMAreaViewController.m in Sources */,
 				1852B8B01BDE12710081AD7E /* GPUImageDissolveBlendFilter.m in Sources */,
 				1852B9231BDE12710081AD7E /* GPUImageTwoPassTextureSamplingFilter.m in Sources */,
 				1852B8921BDE12710081AD7E /* GPUImageAddBlendFilter.m in Sources */,
 				189ABDFD1C05496F005C3192 /* MOMNeighborTableController.m in Sources */,
+				189ABE131C06DD09005C3192 /* ColumnReusableView.m in Sources */,
 				1852B8991BDE12710081AD7E /* GPUImageBrightnessFilter.m in Sources */,
 				185E50F61BDA027B00AC392E /* MOMNetWorking.m in Sources */,
 				1852B8DC1BDE12710081AD7E /* GPUImageLowPassFilter.m in Sources */,
@@ -2594,6 +2731,7 @@
 				1852B9071BDE12710081AD7E /* GPUImageSharpenFilter.m in Sources */,
 				1852B8F61BDE12710081AD7E /* GPUImagePixellatePositionFilter.m in Sources */,
 				1852B8D11BDE12710081AD7E /* GPUImageJFAVoronoiFilter.m in Sources */,
+				189ABE081C06D989005C3192 /* MOMTableView.m in Sources */,
 				1852B8E61BDE12710081AD7E /* GPUImageMotionBlurFilter.m in Sources */,
 				1852B8D71BDE12710081AD7E /* GPUImageLightenBlendFilter.m in Sources */,
 				1852B8B61BDE12710081AD7E /* GPUImageFalseColorFilter.m in Sources */,
@@ -2645,6 +2783,7 @@
 				18769EA71BF1D39D0056BCAE /* TLCityPickerSearchResultController.m in Sources */,
 				1856E2CE1BF9C57400EE6ECF /* MOMBBSInfo.m in Sources */,
 				18553CA71C02BA0600BB8305 /* MOMNetWorking+User.m in Sources */,
+				189ABE191C06DD69005C3192 /* MOMMoreController.m in Sources */,
 				18769E941BF1C6480056BCAE /* MOMBBSCommentTableController.m in Sources */,
 				1852B8AA1BDE12710081AD7E /* GPUImageCrosshatchFilter.m in Sources */,
 				1852B8FE1BDE12710081AD7E /* GPUImageRGBClosingFilter.m in Sources */,
@@ -2843,6 +2982,25 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_CXX_LIBRARY = "libstdc++";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(PODS_ROOT)/BaiduMapKit/BaiduMapKit\"",
+					"\"$(PODS_ROOT)/JMessage/JMessage\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/BaiduMapKit\"",
+					"\"${PODS_ROOT}/Headers/Public/BaiduMapKit/BaiduMapAPI_Base\"",
+					"\"${PODS_ROOT}/Headers/Public/BaiduMapKit/BaiduMapAPI_Cloud\"",
+					"\"${PODS_ROOT}/Headers/Public/BaiduMapKit/BaiduMapAPI_Location\"",
+					"\"${PODS_ROOT}/Headers/Public/BaiduMapKit/BaiduMapAPI_Map\"",
+					"\"${PODS_ROOT}/Headers/Public/BaiduMapKit/BaiduMapAPI_Radar\"",
+					"\"${PODS_ROOT}/Headers/Public/BaiduMapKit/BaiduMapAPI_Search\"",
+					"\"${PODS_ROOT}/Headers/Public/BaiduMapKit/BaiduMapAPI_Utils\"",
+					"\"${PODS_ROOT}/Headers/Public/JMessage\"",
+					"\"${PODS_ROOT}/Headers/Public/JMessage/JMessage\"",
+					../FastTextViewLib/FastTextViewLib/Class,
+				);
 				INFOPLIST_FILE = LivingArea/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -2851,7 +3009,7 @@
 					"$(PROJECT_DIR)/LivingArea/Classes/Tool/Yuntx_IMUIKit_SDK/lib",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "e265b899-0dab-47c8-8f9b-6aaed010e2c3";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -2864,6 +3022,25 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_CXX_LIBRARY = "libstdc++";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(PODS_ROOT)/BaiduMapKit/BaiduMapKit\"",
+					"\"$(PODS_ROOT)/JMessage/JMessage\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/BaiduMapKit\"",
+					"\"${PODS_ROOT}/Headers/Public/BaiduMapKit/BaiduMapAPI_Base\"",
+					"\"${PODS_ROOT}/Headers/Public/BaiduMapKit/BaiduMapAPI_Cloud\"",
+					"\"${PODS_ROOT}/Headers/Public/BaiduMapKit/BaiduMapAPI_Location\"",
+					"\"${PODS_ROOT}/Headers/Public/BaiduMapKit/BaiduMapAPI_Map\"",
+					"\"${PODS_ROOT}/Headers/Public/BaiduMapKit/BaiduMapAPI_Radar\"",
+					"\"${PODS_ROOT}/Headers/Public/BaiduMapKit/BaiduMapAPI_Search\"",
+					"\"${PODS_ROOT}/Headers/Public/BaiduMapKit/BaiduMapAPI_Utils\"",
+					"\"${PODS_ROOT}/Headers/Public/JMessage\"",
+					"\"${PODS_ROOT}/Headers/Public/JMessage/JMessage\"",
+					../FastTextViewLib/FastTextViewLib/Class,
+				);
 				INFOPLIST_FILE = LivingArea/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -2872,7 +3049,7 @@
 					"$(PROJECT_DIR)/LivingArea/Classes/Tool/Yuntx_IMUIKit_SDK/lib",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "e265b899-0dab-47c8-8f9b-6aaed010e2c3";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
