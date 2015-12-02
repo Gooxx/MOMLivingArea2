@@ -59,6 +59,8 @@ install_resource()
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/Resources/mapapi.bundle"
+  install_resource "SMS-For-iOS/SMS_SDK/en.lproj"
+  install_resource "SMS-For-iOS/SMS_SDK/zh-Hans.lproj"
   install_resource "ZSSRichTextEditor/ZSSRichTextEditor/Images/ZSSbgcolor.png"
   install_resource "ZSSRichTextEditor/ZSSRichTextEditor/Images/ZSSbgcolor@2x.png"
   install_resource "ZSSRichTextEditor/ZSSRichTextEditor/Images/ZSSbold.png"
@@ -136,6 +138,8 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/Resources/mapapi.bundle"
+  install_resource "SMS-For-iOS/SMS_SDK/en.lproj"
+  install_resource "SMS-For-iOS/SMS_SDK/zh-Hans.lproj"
   install_resource "ZSSRichTextEditor/ZSSRichTextEditor/Images/ZSSbgcolor.png"
   install_resource "ZSSRichTextEditor/ZSSRichTextEditor/Images/ZSSbgcolor@2x.png"
   install_resource "ZSSRichTextEditor/ZSSRichTextEditor/Images/ZSSbold.png"

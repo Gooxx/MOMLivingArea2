@@ -98,6 +98,12 @@
     }];
 }
 
+-(void)testMD5{
+    NSString *MD5 = [MOMSecurityHelper md5:@"123456"];
+    NSLog(@"MD5:%@",MD5);
+
+}
+
 - (void)testPerformanceExample {
     // This is an example of a performance test case.
     [self measureBlock:^{

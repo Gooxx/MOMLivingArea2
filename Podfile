@@ -17,3 +17,10 @@ pod 'JMessage', '~> 1.0.6'
 #pod 'UMengAnalytics', '~> 3.5.16'
 pod 'ZSSRichTextEditor', '~> 0.5.2.1'
 #pod 'RichEditorView', '~> 2.0.1'
+
+## 主模块(必须)
+#pod 'ShareSDK2'
+## 短信(可选)
+#pod 'ShareSDK2/Connection/SMS'
+#pod 'SMS_SDK', '~> 1.1.1'
+pod 'SMS-For-iOS', '~> 1.2.0'

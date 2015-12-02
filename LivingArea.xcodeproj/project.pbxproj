@@ -344,6 +344,8 @@
 		189ABE7F1C0C1F4D005C3192 /* libFastTextViewLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 189ABE7C1C0C1C9D005C3192 /* libFastTextViewLib.a */; };
 		189ABE861C0D4A2C005C3192 /* IGLDropDownItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 189ABE831C0D4A2C005C3192 /* IGLDropDownItem.m */; settings = {ASSET_TAGS = (); }; };
 		189ABE871C0D4A2D005C3192 /* IGLDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 189ABE851C0D4A2C005C3192 /* IGLDropDownMenu.m */; settings = {ASSET_TAGS = (); }; };
+		189ABE901C0D89FA005C3192 /* MOMRegisterOverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189ABE8F1C0D89FA005C3192 /* MOMRegisterOverController.m */; settings = {ASSET_TAGS = (); }; };
+		189ABE941C0EC009005C3192 /* MOMPasswordFindController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189ABE931C0EC009005C3192 /* MOMPasswordFindController.m */; settings = {ASSET_TAGS = (); }; };
 		18E257771BEAE9BD00AE49E1 /* MKWQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E257761BEAE9BD00AE49E1 /* MKWQRCodeViewController.m */; settings = {ASSET_TAGS = (); }; };
 		18E2577A1BEB28E400AE49E1 /* MOMChatController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E257791BEB28E400AE49E1 /* MOMChatController.m */; settings = {ASSET_TAGS = (); }; };
 		18E2577D1BEB2AAB00AE49E1 /* MOMMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E2577C1BEB2AAB00AE49E1 /* MOMMessageController.m */; settings = {ASSET_TAGS = (); }; };
@@ -986,6 +988,10 @@
 		189ABE831C0D4A2C005C3192 /* IGLDropDownItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGLDropDownItem.m; sourceTree = "<group>"; };
 		189ABE841C0D4A2C005C3192 /* IGLDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGLDropDownMenu.h; sourceTree = "<group>"; };
 		189ABE851C0D4A2C005C3192 /* IGLDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGLDropDownMenu.m; sourceTree = "<group>"; };
+		189ABE8E1C0D89FA005C3192 /* MOMRegisterOverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOMRegisterOverController.h; path = Register/MOMRegisterOverController.h; sourceTree = "<group>"; };
+		189ABE8F1C0D89FA005C3192 /* MOMRegisterOverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOMRegisterOverController.m; path = Register/MOMRegisterOverController.m; sourceTree = "<group>"; };
+		189ABE921C0EC009005C3192 /* MOMPasswordFindController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MOMPasswordFindController.h; path = Password/MOMPasswordFindController.h; sourceTree = "<group>"; };
+		189ABE931C0EC009005C3192 /* MOMPasswordFindController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MOMPasswordFindController.m; path = Password/MOMPasswordFindController.m; sourceTree = "<group>"; };
 		18E257751BEAE9BD00AE49E1 /* MKWQRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKWQRCodeViewController.h; sourceTree = "<group>"; };
 		18E257761BEAE9BD00AE49E1 /* MKWQRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKWQRCodeViewController.m; sourceTree = "<group>"; };
 		18E257781BEB28E400AE49E1 /* MOMChatController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOMChatController.h; sourceTree = "<group>"; };
@@ -1036,6 +1042,8 @@
 				180A860F1BE8855100449525 /* MOMPasswordCodeController.m */,
 				180A86121BE8858300449525 /* MOMPasswordUpdateController.h */,
 				180A86131BE8858300449525 /* MOMPasswordUpdateController.m */,
+				189ABE921C0EC009005C3192 /* MOMPasswordFindController.h */,
+				189ABE931C0EC009005C3192 /* MOMPasswordFindController.m */,
 			);
 			name = Password;
 			sourceTree = "<group>";
@@ -2090,14 +2098,10 @@
 		185E50D71BDA027B00AC392E /* User */ = {
 			isa = PBXGroup;
 			children = (
+				189ABE911C0D9AC1005C3192 /* Login */,
+				189ABE8D1C0D897B005C3192 /* register */,
 				180A86111BE8855700449525 /* Password */,
 				1852BA871BE0AFF300134166 /* LoginAndMain */,
-				185E50D81BDA027B00AC392E /* MOMLoginNavigationController.h */,
-				185E50D91BDA027B00AC392E /* MOMLoginNavigationController.m */,
-				185E50DA1BDA027B00AC392E /* MOMLoginViewController.h */,
-				185E50DB1BDA027B00AC392E /* MOMLoginViewController.m */,
-				180A860B1BE884CB00449525 /* MOMRegisterController.h */,
-				180A860C1BE884CB00449525 /* MOMRegisterController.m */,
 			);
 			name = User;
 			path = Login;
@@ -2305,6 +2309,28 @@
 				189ABE851C0D4A2C005C3192 /* IGLDropDownMenu.m */,
 			);
 			path = IGLDropDownMenu;
+			sourceTree = "<group>";
+		};
+		189ABE8D1C0D897B005C3192 /* register */ = {
+			isa = PBXGroup;
+			children = (
+				180A860B1BE884CB00449525 /* MOMRegisterController.h */,
+				180A860C1BE884CB00449525 /* MOMRegisterController.m */,
+				189ABE8E1C0D89FA005C3192 /* MOMRegisterOverController.h */,
+				189ABE8F1C0D89FA005C3192 /* MOMRegisterOverController.m */,
+			);
+			name = register;
+			sourceTree = "<group>";
+		};
+		189ABE911C0D9AC1005C3192 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				185E50D81BDA027B00AC392E /* MOMLoginNavigationController.h */,
+				185E50D91BDA027B00AC392E /* MOMLoginNavigationController.m */,
+				185E50DA1BDA027B00AC392E /* MOMLoginViewController.h */,
+				185E50DB1BDA027B00AC392E /* MOMLoginViewController.m */,
+			);
+			name = Login;
 			sourceTree = "<group>";
 		};
 		18E257741BEAE9BD00AE49E1 /* QRCode */ = {
@@ -2626,6 +2652,7 @@
 				185E50F71BDA027B00AC392E /* MOMNetWorkingHelper.m in Sources */,
 				1859A00E1BFDC023001FDA3D /* MOMUserInfoController.m in Sources */,
 				189ABE141C06DD09005C3192 /* ColumnViewController.m in Sources */,
+				189ABE901C0D89FA005C3192 /* MOMRegisterOverController.m in Sources */,
 				18769EA51BF1D39D0056BCAE /* TLCityHeaderView.m in Sources */,
 				1852B8E91BDE12710081AD7E /* GPUImageMovieComposition.m in Sources */,
 				1852B91F1BDE12710081AD7E /* GPUImageTransformFilter.m in Sources */,
@@ -2719,6 +2746,7 @@
 				1852B8C81BDE12710081AD7E /* GPUImageHighPassFilter.m in Sources */,
 				1852B90E1BDE12710081AD7E /* GPUImageSoftLightBlendFilter.m in Sources */,
 				1852B8D61BDE12710081AD7E /* GPUImageLevelsFilter.m in Sources */,
+				189ABE941C0EC009005C3192 /* MOMPasswordFindController.m in Sources */,
 				1852B92A1BDE12710081AD7E /* GPUImageWhiteBalanceFilter.m in Sources */,
 				1852B8CA1BDE12710081AD7E /* GPUImageHistogramFilter.m in Sources */,
 				1852B8ED1BDE12710081AD7E /* GPUImageNormalBlendFilter.m in Sources */,
@@ -3020,6 +3048,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(PODS_ROOT)/BaiduMapKit/BaiduMapKit\"",
 					"\"$(PODS_ROOT)/JMessage/JMessage\"",
+					"\"$(PODS_ROOT)/SMS-For-iOS/SMS_SDK\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -3060,6 +3089,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(PODS_ROOT)/BaiduMapKit/BaiduMapKit\"",
 					"\"$(PODS_ROOT)/JMessage/JMessage\"",
+					"\"$(PODS_ROOT)/SMS-For-iOS/SMS_SDK\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
