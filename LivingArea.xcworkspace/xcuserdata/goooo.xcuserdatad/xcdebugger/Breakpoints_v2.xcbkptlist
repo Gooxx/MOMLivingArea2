@@ -147,54 +147,6 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "LivingArea/Classes/ViewController/BBS/MOMBBSController.m"
-            timestampString = "470631232.901633"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "82"
-            endingLineNumber = "82"
-            landmarkName = "-createAD"
-            landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[MOMBBSController createAD]"
-                  moduleName = "LivingArea"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/goooo/Desktop/wokspace/momworkspace/MOMLivingArea/LivingArea/Classes/ViewController/BBS/MOMBBSController.m"
-                  timestampString = "470737253.994202"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "82"
-                  endingLineNumber = "82"
-                  offsetFromSymbolStart = "41">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__28-[MOMBBSController createAD]_block_invoke"
-                  moduleName = "LivingArea"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/goooo/Desktop/wokspace/momworkspace/MOMLivingArea/LivingArea/Classes/ViewController/BBS/MOMBBSController.m"
-                  timestampString = "470737253.994351"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "82"
-                  endingLineNumber = "82"
-                  offsetFromSymbolStart = "86">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "LivingArea/Classes/ViewController/Login/MOMRegisterController.m"
             timestampString = "470720245.561011"
             startingColumnNumber = "9223372036854775807"
@@ -227,13 +179,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "LivingArea/Classes/Store/User/MOMUserStore.m"
-            timestampString = "470735907.693943"
+            filePath = "LivingArea/Classes/ViewController/Login/MOMRegisterController.m"
+            timestampString = "470737253.72365"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
-            landmarkName = "+loginWithName:password:callback:"
+            startingLineNumber = "194"
+            endingLineNumber = "194"
+            landmarkName = "-didReceiveMemoryWarning"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -243,13 +195,29 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "LivingArea/Classes/ViewController/Login/MOMRegisterController.m"
-            timestampString = "470737253.72365"
+            filePath = "LivingArea/Classes/Tool/networking/MOMNetWorking.m"
+            timestampString = "470738396.568576"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "194"
-            endingLineNumber = "194"
-            landmarkName = "-didReceiveMemoryWarning"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "+requestByMethod:params:callback:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LivingArea/Classes/ViewController/BBS/User/MOMUserEditController.m"
+            timestampString = "470887234.168113"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "-alertView:clickedButtonAtIndex:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
