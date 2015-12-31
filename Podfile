@@ -1,7 +1,8 @@
 platform:ios,'7.0'
 #pod 'JPushSDK'
 #pod 'BaiduMapAPI', '~> 2.8.1'
-pod 'BaiduMapKit', '~> 2.9.0.2'
+#pod 'BaiduMapKit', '~> 2.9.0.2'
+pod 'BaiduMapKit' #百度地图SDK
 pod 'JMessage', '~> 1.0.6'
 #pod 'Canvas', '~> 0.1.2'
 #pod 'AFNetworking'

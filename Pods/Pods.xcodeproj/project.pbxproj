@@ -53,7 +53,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		08BE3E497900887D07425C302939E51A /* PBXContainerItemProxy */ = {
+		2586A97983D5E9B2D29C930E7261A313 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -584,7 +584,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				70EA96D0E8BA02CED75560116CB28331 /* PBXTargetDependency */,
+				E9DB9A11899B1C1E31DA6C30FFAFBC31 /* PBXTargetDependency */,
 			);
 			name = Pods;
 			productName = Pods;
@@ -656,11 +656,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		70EA96D0E8BA02CED75560116CB28331 /* PBXTargetDependency */ = {
+		E9DB9A11899B1C1E31DA6C30FFAFBC31 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ZSSRichTextEditor;
 			target = 5039475F29ACDA35FBAF9D2EDD1B4A72 /* ZSSRichTextEditor */;
-			targetProxy = 08BE3E497900887D07425C302939E51A /* PBXContainerItemProxy */;
+			targetProxy = 2586A97983D5E9B2D29C930E7261A313 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

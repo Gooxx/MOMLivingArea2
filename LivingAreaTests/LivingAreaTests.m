@@ -17,6 +17,8 @@
 #import "MOMIMStore.h"
 #import "MOMMessageStore.h"
 #import "MOMApplication.h"
+
+#import "MOMBBSStore.h"
 @interface LivingAreaTests : XCTestCase
 
 @end
@@ -86,22 +88,30 @@
 }
 */
 
--(void)testIMNeightors{
-    [MOMIMStore neighborWithArea:nil sex:0 location:CLLocationCoordinate2DMake(0, 0) callback:^(NSInteger ret, id result, NSError *error) {
-        NSLog(@"result:%@",result);
+//-(void)testIMNeightors{
+//    [MOMIMStore neighborWithArea:nil sex:0 location:CLLocationCoordinate2DMake(0, 0) callback:^(NSInteger ret, id result, NSError *error) {
+//        NSLog(@"result:%@",result);
+//    }];
+//}
+//
+//-(void)testMessage{
+//    [MOMMessageStore messagesCallback:^(NSInteger ret, id result, NSError *error) {
+//        NSLog(@"ret:%ld,%@,%@",ret,result,error);
+//    }];
+//}
+//
+//-(void)testMD5{
+//    NSString *MD5 = [MOMSecurityHelper md5:@"111111{%@}" salt:@"18502277078"];
+//    NSLog(@"MD5:%@",MD5);
+//
+//}
+
+-(void)testBBS{
+    [MOMCurrentUser setAreaId:@"3"];
+    [MOMBBSStore BBSsstartTime:@"2014-11-25 11:35:22" endTime:@"2015-11-25 11:35:22" type:MOMBBSTypeHot callback:^(NSInteger ret, NSArray *dataList, NSError *error)  {
+//        _dataArr =  dataList;
+//        [allDataDic setObject:dataList forKey:[NSNumber numberWithInteger:MOMBBSTypeHot]];
     }];
-}
-
--(void)testMessage{
-    [MOMMessageStore messagesCallback:^(NSInteger ret, id result, NSError *error) {
-        NSLog(@"ret:%ld,%@,%@",ret,result,error);
-    }];
-}
-
--(void)testMD5{
-    NSString *MD5 = [MOMSecurityHelper md5:@"123456"];
-    NSLog(@"MD5:%@",MD5);
-
 }
 
 - (void)testPerformanceExample {
